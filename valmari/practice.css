@@ -209,6 +209,9 @@ h1, h2, h3, h4, h5, h6 {
    margin-left: 15%;
 }
 
+.img__head img{
+    width: 50vw;
+}
 .h6__style h6 {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -239,7 +242,11 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
+
+
+
 /* Бесплатный вебинар */
+
 .main__container {
     display: flex;
 }
@@ -319,7 +326,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 25vw;
     line-height: 28px;
     color: #858585;
 }
@@ -470,6 +477,15 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
+}
+.img__sec2{
+    width:50%;
+}
+.img__sec2 img{
+    width:100%;
+}
+.content-sec-2{
+    width:50%;
 }
 .content-sec-2 h2 {
     font-family: 'Montserrat',sans-serif;
