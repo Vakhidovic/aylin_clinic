@@ -226,3 +226,8 @@ main .hero-right .photo-frame .layer-displayed {
     width: 0;
   }
 }
+@media screen and (max-width: 767px) {
+  .layer{
+    display: none;
+  }
+}
