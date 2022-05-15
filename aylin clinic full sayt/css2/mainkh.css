@@ -1,0 +1,107 @@
+.wrapper {
+    width: 100%;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+:root {--surface-color: #fff;--curve: 40;}
+* {box-sizing: border-box;}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: #fef8f8;
+}
+
+.context-dark, .bg-gray-dark, .bg-primary {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
+    color: #ffffff;
+}
+.section__footer {
+    padding-top: 3%;
+}
+.nav-list li{
+    margin: 1% 0;
+}
+.nav-list li a {
+    font-size: 1vw;
+    margin: 1% 0;
+}
+.nav-list li a:hover {
+    font-size: 1.2vw;
+    color: silver;
+}
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.col-md-5 p {
+    font-size: 1vw;
+}
+.contact-list dt, dd {
+    font-size: 1vw;
+}
+.content__footer2 h5, .content__footer3 h5{
+    font-size: 1.6vw;
+}
+.social-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 23px;
+    font: 900 1.3vw "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+}
+.social-inner:hover {
+    font-size: 1.5vw;
+    color: silver;
+}
+.social-container .col {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.content__footer1 {
+    width: 33%;
+}
+.content__footer2 {
+    width: 36%;
+}
+.content__footer3 {
+    width: 30%;
+}
+@media screen and (max-width: 767px){
+    .col-md-5 p {
+        font-size: 1.3vw;
+    }
+    .contact-list dt, dd {
+        font-size: 1.3vw;
+    }
+    .col-md-4 h5{
+        font-size: 1.8vw;
+    }
+    .nav-list li a {
+        font-size: 1.3vw;
+    }
+    .nav-list li a:hover {
+        font-size: 1.5vw;
+    }
+}
+@media screen and (max-width: 501px){
+    .col-md-5 p {
+        font-size: 1.5vw;
+    }
+    .contact-list dt, dd {
+        font-size: 1.5vw;
+    }
+    .col-md-4 h5{
+        font-size: 2vw;
+    }
+    .nav-list li a {
+        font-size: 1.6vw;
+    }
+    .nav-list li a:hover {
+        font-size: 1.8vw;
+    }
+}
