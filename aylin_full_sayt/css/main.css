@@ -122,6 +122,8 @@ body .wrapper .section__laserMon h2 {
     body .wrapper .section__aboutUS .container__aboutUS .content__aboutUS .paragraph__aboutUS p {
       font-size: 2.8vw;
       margin-top: -7%; }
+  body .wrapper .section__carusel h2 {
+    font-size: 5vw; }
   body .wrapper .section__priceList h2 {
     font-size: 4.5vw; }
   body .wrapper .section__priceList .container .cards__price {
