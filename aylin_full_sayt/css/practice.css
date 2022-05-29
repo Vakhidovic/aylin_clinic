@@ -200,7 +200,7 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit;font-weight: 400;}
 
 .main {
     margin-top: 7%;
-	padding-top: 2%;
+	padding: 4% 0;
     background-color: rgba(213, 161, 34, 0.21);
 }
 
@@ -215,32 +215,14 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit;font-weight: 400;}
 .img__head img {
     width: 40vw;
 }
-.h6__style h6 {
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 1.6vw;
-    line-height: 26px;
-    color: #424242;
-}
 
 .h1__style h1 {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 4.6vw;
-    line-height: 65px;
+    font-size: 4vw;
     color: #d09d21;
-	margin: 3% 0;
-}
-
-.paragraph p {
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 1.5vw;
-    line-height: 23px;
-    color: #424242;
+	margin-top: 20%;
 }
 
 .main__container {
@@ -272,10 +254,6 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit;font-weight: 400;}
     cursor: pointer;
 }
 
-#map iframe {
-    border: 2px solid #d09d21;
-    box-shadow: 5px 4px 14px 5px  #d09d21;
-}
 .img-3 img {
     width: 21vw;
 
@@ -679,17 +657,19 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit;font-weight: 400;}
     .content__head {
         width: 100%;
     }
+    .main__container {
+        display: block;
+    }
     .h1__style h1 {
-        margin-top: 8%;
+        margin-top: 38%;
         font-size: 35px;
         text-align: center;
     }
-    .paragraph__header p {
-        font-size: 14px;
-        text-align: center;
-    }
     .img__head {
-        display: none;
+        margin-left: 0;
+    }
+    .img__head img{
+        width: 80vw;
     }
     .header__tel {
         display: none;
@@ -814,23 +794,23 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit;font-weight: 400;}
      .titles__header {
          text-align: center;
      }
+     .main__container{
+         display: block;
+     }
     .img__head {
-        display: none;
+        margin-left: 0;
+    }
+    .img__head img{
+        width: 80vw;
     }
     .header__logo img {
         width: 20vw;
         margin-left: 130%;
     }
-    .h6__style {
-        display: none;
-    }
    .h1__style h1 {
-       margin-top: 10%;
-       font-size: 45px;
+       margin-top: 20%;
+       font-size: 40px;
    }
-    .paragraph__header p {
-        font-size: 16px;
-    }
     .header__tel {
         display: none;
     }
@@ -962,25 +942,20 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit;font-weight: 400;}
 	.main__container {
 		display: block;
 	}
-	.img__head{
-        display: none;
-	}
+    .img__head{
+        margin-left: 0;
+    }
+    .img__head img{
+        width: 80vw;
+    }
 	.content__head {
 		text-align: center;
         padding-bottom: 5%;
 	}
     .h1__style h1 {
+        margin-top: -5%;
         font-size: 7.4vw;
     }
-    .h6__style h6 {
-        display: none;
-    }
-    .paragraph__header p {
-        font-size: 3vw;
-    }
-	.buttons__head {
-		display: block;
-	}
 	.btn-1 {
 		width: 100%;
 		margin-bottom: 8%;
@@ -1087,14 +1062,8 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit;font-weight: 400;}
         width: 50vw;
     }
     .h1__style h1 {
-        font-size: 4.1vw;
-    }
-    .h6__style h6 {
-        font-size: 2vw;
-        margin-bottom: -5%;
-    }
-    .paragraph__header p {
-        font-size: 1.6vw;
+        margin-top: 21%;
+        font-size: 3.5vw;
     }
     .btn-1  {
         margin-top: 15%;
@@ -1111,11 +1080,8 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit;font-weight: 400;}
     .img__head img {
         width: 50vw;
     }
-    .h6__style {
-        font-size: 2vw;
-    }
     .h1__style h1{
-        font-size: 4.5vw;
+        font-size: 3vw;
     }
     .paragraph__header p{
         font-size: 1.6vw;

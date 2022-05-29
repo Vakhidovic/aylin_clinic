@@ -75,14 +75,19 @@ body .wrapper .section__priceList {
       body .wrapper .section__priceList .container .cards__price .card__prices .logo__priceList img {
         width: 10vw; }
       body .wrapper .section__priceList .container .cards__price .card__prices .content__prices h3 {
-        font-size: 2vw;
+        font-size: 2.1vw;
         margin: 4% 0;
-        text-align: center; }
+        text-align: center;
+        font-weight: bolder; }
+      body .wrapper .section__priceList .container .cards__price .card__prices .content__prices h4 {
+        font-size: 1.7vw;
+        font-weight: 600; }
       body .wrapper .section__priceList .container .cards__price .card__prices .content__prices .price {
         display: flex;
         justify-content: space-between; }
         body .wrapper .section__priceList .container .cards__price .card__prices .content__prices .price p {
-          font-size: 1vw; }
+          font-size: 1.3vw;
+          line-height: 20px; }
     body .wrapper .section__priceList .container .cards__price .card__prices-2 {
       width: 48%;
       margin: 1% auto;
