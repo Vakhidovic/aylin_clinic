@@ -3,7 +3,11 @@
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
-
+.content__prices h5{
+    font-weight: bold;
+    text-align: left;
+    font-size: 1.6vw;
+}
 .modal-body p{
     font-family: 'Montserrat', sans-serif;
     padding: 1%;

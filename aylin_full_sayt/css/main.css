@@ -138,23 +138,24 @@ body .wrapper .section__laserMon h2 {
       margin: 5% auto; }
       body .wrapper .section__priceList .container .cards__price .card__prices .logo__priceList img {
         width: 15vw; }
+      body .wrapper .section__priceList .container .cards__price .card__prices .content__prices h4 {
+        font-size: 3vw; }
       body .wrapper .section__priceList .container .cards__price .card__prices .content__prices h3 {
         font-size: 3.5vw; }
       body .wrapper .section__priceList .container .cards__price .card__prices .content__prices .price p {
-        font-size: 2.5vw; }
+        font-size: 2.7vw;
+        line-height: 8px; }
   body .wrapper .section__laserMon h2 {
     font-size: 6vw; }
   body .wrapper .section__laserMon .card__laser {
     width: 100%;
     align-items: center; }
     body .wrapper .section__laserMon .card__laser .img-3 img {
-      width: 32vw; }
+      width: 45vw; }
     body .wrapper .section__laserMon .card__laser .row-2 h4 {
       font-size: 3.2vw; }
     body .wrapper .section__laserMon .card__laser .row-2 h3 {
       font-size: 3.8vw; }
-    body .wrapper .section__laserMon .card__laser .row-2 p {
-      font-size: 2.2vw; }
     body .wrapper .section__laserMon .card__laser .row-2 .mini-content-3 div {
       width: 27vw;
       height: 6vw;

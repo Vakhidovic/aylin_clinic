@@ -20,6 +20,7 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit;font-weight: 400;}
     width: 100%;
     overflow: hidden;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    scroll-behavior: smooth;
 }
 .container {
     max-width: 85%;
@@ -545,6 +546,18 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit;font-weight: 400;}
 }
 
 @media screen and (max-width: 450px) {
+    .modal-footer button{
+        width: 20vw;
+        height: 10vw;
+        font-size: 4vw;
+    }
+    .row-2 p{
+        font-size: 2.6vw;
+    }
+    .modal-body p{
+        font-size: 4vw;
+    }
+
     .section__staff{
         position: relative;
         margin-bottom: 38%
@@ -677,8 +690,13 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit;font-weight: 400;}
     .header__number {
         display: none;
     }
+    .card__laser{
+        display: block;
+    }
+    .img-3{
+        text-align: end;
+    }
     .btn-1 {
-        width: 100%;
         margin-bottom: 8%;
         font-size: 5vw;
     }
