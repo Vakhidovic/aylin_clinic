@@ -235,12 +235,16 @@ body {
               }
 
               .content__prices {
+                h4{
+                  font-size: 3vw;
+                }
                 h3 {
                   font-size: 3.5vw;
                 }
 
                 .price p {
-                  font-size: 2.5vw;
+                  font-size: 2.7vw;
+                  line-height: 8px;
                 }
               }
             }
@@ -256,7 +260,7 @@ body {
           width: 100%;
           align-items: center;
           .img-3 img{
-            width: 32vw;
+            width: 45vw;
           }
 
           .row-2 {
@@ -265,10 +269,6 @@ body {
             }
             h3{
               font-size: 3.8vw;
-            }
-            p{
-              font-size: 2.2vw;
-
             }
             .mini-content-3 div {
               width: 27vw;

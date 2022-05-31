@@ -15,7 +15,9 @@ a:hover {text-decoration: none;}
 ul li {list-style: none;}
 img {vertical-align: top;}
 h1, h2, h3, h4, h5, h6 {font-size: inherit;font-weight: 400;}
-
+html{
+        scroll-behavior: smooth;
+}
 .wrapper {
     width: 100%;
     overflow: hidden;
@@ -545,6 +547,18 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit;font-weight: 400;}
 }
 
 @media screen and (max-width: 450px) {
+    .modal-footer button{
+        width: 20vw;
+        height: 10vw;
+        font-size: 4vw;
+    }
+    .row-2 p{
+        font-size: 2.6vw;
+    }
+    .modal-body p{
+        font-size: 4vw;
+    }
+
     .section__staff{
         position: relative;
         margin-bottom: 38%
@@ -677,8 +691,13 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit;font-weight: 400;}
     .header__number {
         display: none;
     }
+    .card__laser{
+        display: block;
+    }
+    .img-3{
+        text-align: end;
+    }
     .btn-1 {
-        width: 100%;
         margin-bottom: 8%;
         font-size: 5vw;
     }
