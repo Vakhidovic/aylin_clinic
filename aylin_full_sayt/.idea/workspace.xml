@@ -47,16 +47,16 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\valmari\js" />
+      <recent name="E:\valmari\css" />
+      <recent name="C:\umarov\valmari\header\imgs" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\aylin clinic\js" />
       <recent name="C:\aylin clinic\css" />
       <recent name="C:\umarov\valmari\imgs" />
       <recent name="C:\umarov\valmari\header" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\valmari\js" />
-      <recent name="E:\valmari\css" />
-      <recent name="C:\umarov\valmari\header\imgs" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -120,6 +120,7 @@
       <workItem from="1654085511659" duration="187000" />
       <workItem from="1654086268424" duration="31000" />
       <workItem from="1654086300329" duration="288000" />
+      <workItem from="1654096717064" duration="14474000" />
     </task>
     <servers />
   </component>

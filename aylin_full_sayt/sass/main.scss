@@ -2,6 +2,7 @@ body {
   .wrapper {
 
     .section__aboutUS {
+      margin-top: 10vw;
       padding: 3% 0;
       box-sizing: border-box;
 
@@ -25,9 +26,7 @@ body {
         }
 
         .content__aboutUS {
-          margin-left: 5%;
-
-
+          padding: 0 5%;
 
           .title p {
             font-family: 'Work Sans', sans-serif;
@@ -80,6 +79,8 @@ body {
     }
 
     .section__carusel {
+      margin-top: 10vw;
+
       h2 {
         margin-bottom: 2%;
         color: #cf9d21;
@@ -91,7 +92,7 @@ body {
     .section__priceList {
       background-color: rgba(208, 157, 33, 0.35);
       padding: 3% 0;
-      margin-top: 6%;
+      margin-top: 10vw;
 
       h2 {
         font-size: 2.4vw;
@@ -169,6 +170,7 @@ body {
     }
 
     .section__laserMon {
+      margin-top: 10vw;
      .card__laser{
        .row-2{
          width: 80%;
@@ -180,6 +182,10 @@ body {
         text-align: center;
         color: #c89620;
       }
+    }
+
+    .footer-dark{
+      margin-top: 10vw;
     }
   }
 }
@@ -196,6 +202,7 @@ body {
 
         .container__aboutUS {
           display: block;
+          padding: 0;
 
           .img__aboutUS img {
             width: 100%;
@@ -223,7 +230,8 @@ body {
         }
       }
       
-      .section__carusel{
+      .section__carusel {
+        height: 70vh;
         h2{
          font-size: 5vw;
         }
@@ -313,21 +321,22 @@ body {
         }
 
         .container__aboutUS {
+          .img__aboutUS {
+            img {
+              width: 50vw;
+            }
+          }
           .content__aboutUS {
-            h4{
-              font-size: 2.8vw;
+            h4 {
+              font-size: 2.4vw;
             }
-            .title p {
-              font-size: 1.8vw;
-            }
-
             .list__facts li {
               font-size: 2.2vw;
             }
 
             .paragraph__aboutUS p {
               margin-top: -7%;
-              font-size: 1.5vw;
+              font-size: 1.6vw;
             }
           }
         }
@@ -374,6 +383,7 @@ body {
           }
 
           .row-2 {
+            width: 100%;
             h4{
               font-size: 3vw;
             }
@@ -405,16 +415,21 @@ body {
         }
 
         .container__aboutUS {
+          .img__aboutUS{
+            img{
+              width: 50vw;
+            }
+          }
           .content__aboutUS {
             .title p {
-              font-size: 2vw;
+              font-size: 1.8vw;
             }
             h4{
-              font-size: 2.4vw;
+              font-size: 2vw;
             }
 
             .list__facts li {
-              font-size: 2.2vw;
+              font-size: 2vw;
             }
 
             .paragraph__aboutUS p {
@@ -434,7 +449,7 @@ body {
             .card__prices {
               .content__prices {
                 h3{
-                  font-size: 2.8vw;
+                  font-size: 2.2vw;
                 }
                 .price p {
                   font-size: 1.6vw;
@@ -452,10 +467,13 @@ body {
         .card__laser {
           width: 100%;
           align-items: center;
-          .img-3 img{
-            width: 30vw;
-           }
-
+          .img-3 {
+            display: flex;
+            align-items: center;
+            img {
+              width: 30vw;
+            }
+          }
           .row-2 {
             h4{
               font-size: 2.8vw;

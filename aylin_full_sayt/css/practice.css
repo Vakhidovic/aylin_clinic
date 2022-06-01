@@ -25,7 +25,6 @@ html{
 }
 .container {
     max-width: 85%;
-    padding: 0 5px;
     margin: 0 auto;
 }
 
@@ -55,7 +54,6 @@ html{
 
 .header__top {
     width: 100%;
-    min-height: 85px;
     padding-top: 12px;
 }
 
@@ -114,7 +112,7 @@ html{
 }
 
 .header__bottom {
-    padding-bottom: 1%;
+    padding: 1% 0;
 
 }
 
@@ -264,12 +262,14 @@ html{
 
 }
 .card__laser {
-    display: flex;
     background-color: rgba(208, 157, 33, 0.35);
     width: 80%;
     padding-top: 1%;
     margin: auto;
     margin-top: 2%;
+}
+.contents__laser{
+    display: flex;
 }
 .row-2 {
     padding: 3%;
@@ -340,7 +340,7 @@ html{
 .section__staff {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    height: 40vw;
+    height: 50vw;
 
 }
 .layer {
@@ -387,7 +387,6 @@ html{
 .hero-left .layers .layer {
     display: grid;
     grid-template-rows: 6rem 3fr 1fr;
-    background-color: whitesmoke;
     transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
     transition-delay: 0.5s;
     transform: translateX(100%);
@@ -409,7 +408,7 @@ html{
     font-weight: bold;
 }
 .layer__image img {
-   width: 23vw;
+   width: 26vw;
 }
 .layer__image{
     margin: auto;
@@ -418,7 +417,8 @@ html{
     display: grid;
     grid-template-columns: 1fr 1.3fr;
     column-gap: 2rem;
-    font-size: 1vw;
+    font-size: 1.5vw;
+    padding: 4% 0;
 }
 .hero-left .layers .layer__info div {
     display: flex;
@@ -573,9 +573,8 @@ html{
     }
     .hero-left{
       position: absolute;
-      left: 10%;
-      width: 80vw;
-      height: 75vw;
+      width: 100vw;
+      height: 60vh;
     }
     .layer__image img{
         margin-top: -20%;
@@ -592,15 +591,15 @@ html{
         max-width: 100%;
     }
     .header__logo img {
-        width: 25vw;
-        margin-left: 80%;
+        width: 16vw;
+        margin-left: 200%;
     }
 
     .header__burger {
         position: relative;
         display: block;
-        width: 60px;
-        height: 50px;
+        width: 50px;
+        height: 30px;
         z-index: 3;
     }
     .header__burger:before, .header__burger:after {
@@ -608,8 +607,8 @@ html{
         display: block;
         position: absolute;
         left: 0;
-        width: 100%;
-        height: 10px;
+        width:80%;
+        height: 6px;
         background:#d09d21;
         transition: all 0.3s linear;
     }
@@ -620,12 +619,12 @@ html{
         bottom: 0;
     }
     .header__burger.active::before {
-        top: 20px;
+        top: 12.5px;
         transform: rotate(225deg);
 
     }
     .header__burger.active::after {
-        bottom: 20px;
+        bottom: 12.5px;
         transform: rotate(-225deg);
     }
     .header__burger.active span {
@@ -635,9 +634,9 @@ html{
     }
     .header__burger span {
         position: absolute;
-        top: 20px;
-        width: 80%;
-        height: 10px;
+        top: 12px;
+        width: 50%;
+        height: 6px;
         background: #d09d21;
     }
     .header__socials {
@@ -683,17 +682,24 @@ html{
     }
     .main__container {
         display: block;
+        width: 100%;
+    }
+    .main{
+        height: 100vh;
+    }
+    .modal-text button{
+        font-size: 2vw;
     }
     .h1__style h1 {
         margin-top: 38%;
-        font-size: 35px;
+        font-size: 33px;
         text-align: center;
     }
     .img__head {
         margin-left: 0;
     }
     .img__head img{
-        width: 80vw;
+        width: 90vw;
     }
     .header__tel {
         display: none;
@@ -701,7 +707,7 @@ html{
     .header__number {
         display: none;
     }
-    .card__laser{
+    .contents__laser{
         display: block;
     }
     .img-3{
@@ -709,8 +715,9 @@ html{
         text-align: end;
     }
     .btn-1 {
+        width: 60%;
+        margin: 15% auto;
         text-align: center;
-        margin-bottom: 8%;
         font-size: 4vw;
         height: 10vw;
     }
@@ -722,16 +729,20 @@ html{
     }
 }
 
-@media screen and (min-width: 451px) and (max-width: 501px){
+@media screen and (min-width: 451px) and (max-width: 501px) {
+    .contents__laser{
+        display: block;
+    }
+    .img-3{
+        text-align: end;
+    }
     .section__staff{
         position: relative;
         margin-bottom: 25%
     }
     .hero-left{
-      position: absolute;
-      left: 10%;
-      width: 80vw;
-      height: 60vw;
+      width: 100vw;
+      height: 60vh;
     }
     .layer__image img{
         margin-top: -15%;
@@ -750,8 +761,8 @@ html{
     .header__burger {
         position: relative;
         display: block;
-        width: 60px;
-        height: 50px;
+        width: 50px;
+        height: 30px;
         z-index: 3;
     }
     .header__burger:before, .header__burger:after {
@@ -759,8 +770,8 @@ html{
         display: block;
         position: absolute;
         left: 0;
-        width: 100%;
-        height: 10px;
+        width: 80%;
+        height: 6px;
         background:#d09d21;
         transition: all 0.3s linear;
     }
@@ -786,9 +797,9 @@ html{
     }
     .header__burger span {
         position: absolute;
-        top: 20px;
-        width: 80%;
-        height: 10px;
+        top: 12px;
+        width: 50%;
+        height: 6px;
         background: #d09d21;
     }
     .header__socials {
@@ -835,16 +846,17 @@ html{
      }
      .main__container{
          display: block;
+         width: 100%;
      }
     .img__head {
         margin-left: 0;
     }
     .img__head img{
-        width: 80vw;
+        width: 90vw;
     }
     .header__logo img {
-        width: 20vw;
-        margin-left: 130%;
+        width: 14vw;
+        margin-left: 200%;
     }
    .h1__style h1 {
        margin-top: 20%;
@@ -857,8 +869,10 @@ html{
         display: none;
     }
     .btn-1 {
-        margin-bottom: 8%;
-        font-size: 4vw;
+        width: 60%;
+        margin: 13% auto;
+        height: 8vh;
+        font-size: 5vw;
     }
     .btn-2 {
         width: 90%;
@@ -869,10 +883,17 @@ html{
 }
 
 @media screen and (min-width: 502px) and (max-width: 767px) {
+    .contents__laser{
+        display: block;
+    }
+    .img-3{
+        margin-top: -25%;
+        text-align: end;
+    }
     .btn-2 {
-        width: 90%;
+        width: 50%;
         margin-bottom: 8%;
-        font-size: 3vw;
+        font-size: 2.8vw;
         height: 10vw;
     }
 
@@ -882,9 +903,8 @@ html{
     }
     .hero-left{
       position: absolute;
-      left: 20%;
-      width: 60vw;
-      height: 60vw;
+      width: 100vw;
+      height: 80vh;
     }
     .layer__image img{
         width: 30vw;
@@ -902,20 +922,21 @@ html{
         display: none;
     }
     .header__logo img {
-        width: 22vw;
+        width: 14vw;
     }
     .container {
         justify-content: space-between;
         max-width: 100%;
     }
     .main {
-        margin-top: 16%;
+        padding-top: 10%;
+        height: 100vh;
     }
     .header__burger {
         position: relative;
         display: block;
-        width: 60px;
-        height: 50px;
+        width: 50px;
+        height: 30px;
         z-index: 3;
     }
     .header__burger:before, .header__burger:after {
@@ -923,8 +944,8 @@ html{
         display: block;
         position: absolute;
         left: 0;
-        width: 100%;
-        height: 10px;
+        width: 80%;
+        height: 6px;
         background:#d09d21;
         transition: all 0.3s linear;
     }
@@ -935,12 +956,12 @@ html{
         bottom: 0;
     }
     .header__burger.active::before {
-        top: 20px;
+        top: 12.5px;
         transform: rotate(225deg);
 
     }
     .header__burger.active::after {
-        bottom: 20px;
+        bottom: 12.5px;
         transform: rotate(-225deg);
     }
     .header__burger.active span {
@@ -950,9 +971,9 @@ html{
     }
     .header__burger span {
         position: absolute;
-        top: 20px;
-        width: 80%;
-        height: 10px;
+        top: 12px;
+        width: 50%;
+        height: 6px;
         background: #d09d21;
     }
     .header__socials {
@@ -1006,12 +1027,13 @@ html{
 	}
     .h1__style h1 {
         margin-top: -5%;
-        font-size: 7.4vw;
+        font-size: 7.5vw;
     }
 	.btn-1 {
-		width: 100%;
-		margin-bottom: 8%;
+		width: 70%;
+        margin: 6% auto;
         font-size: 5vw;
+        height: 10vw;
 	}
 }
 
@@ -1022,7 +1044,7 @@ html{
         height: 7vw;
     }
     .header__logo img {
-        width: 20vw;
+        width: 14vw;
     }
     .container {
         max-width: 100%;
@@ -1030,8 +1052,8 @@ html{
     .header__burger {
         position: relative;
         display: block;
-        width: 60px;
-        height: 50px;
+        width: 50px;
+        height: 30px;
         z-index: 3;
     }
     .header__burger:before, .header__burger:after {
@@ -1039,8 +1061,8 @@ html{
         display: block;
         position: absolute;
         left: 0;
-        width: 100%;
-        height: 10px;
+        width: 80%;
+        height: 6px;
         background: #d09d21;
         transition: all 0.3s linear;
     }
@@ -1051,12 +1073,12 @@ html{
         bottom: 0;
     }
     .header__burger.active::before {
-        top: 20px;
+        top: 12.5px;
         transform: rotate(225deg);
 
     }
     .header__burger.active::after {
-        bottom: 20px;
+        bottom: 12.5px;
         transform: rotate(-225deg);
     }
     .header__burger.active span {
@@ -1064,9 +1086,9 @@ html{
         transition: all 0.3s linear;}
     .header__burger span {
         position: absolute;
-        top: 20px;
-        width: 80%;
-        height: 10px;
+        top: 11.5px;
+        width: 60%;
+        height: 6px;
         background: #d09d21;
     }
     .header__socials {
@@ -1127,6 +1149,7 @@ html{
         width: 100%;
         font-size: 2.2vw;
     }
+
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1200px) {
@@ -1154,6 +1177,9 @@ html{
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1444px){
+    .h1__style h1{
+        font-size: 3vw;
+    }
     .img__head {
         margin-left: 3%;
         margin-top: 9%;
@@ -1164,8 +1190,9 @@ html{
     .buttons__head {
         display: block;
     }
+
     .btn-1 {
-        margin-bottom: 3%;
+        margin: 10% 0;
         font-size: 1.3vw;
     }
     .header__link {
