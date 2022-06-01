@@ -237,7 +237,7 @@ html{
 
 .button {
     width: 285px;
-    height: 66px;
+    height: 5vw;
     border: 1px solid #d09d21;
     color: #d09d21;
     display: flex;
@@ -248,14 +248,17 @@ html{
 .btn-1 {
     margin-top: 8%;
     border-radius: 50px;
-
 }
 .btn-1:hover {
     color: white;
     background-color: #d09d21;
     cursor: pointer;
 }
-
+.btn-2:hover {
+    color: white;
+    background-color: #d09d21;
+    cursor: pointer;
+}
 .img-3 img {
     width: 21vw;
 
@@ -292,7 +295,11 @@ html{
     font-size:1.1vw;
     color: #151D28;
 }
-
+.btn-2 {
+    margin-top: 5%;
+    border-radius: 50px;
+    font-size: 1.4vw;
+}
 .mini-content-3 div {
     width: 15vw;
     Height: 3.2vw;
@@ -552,9 +559,7 @@ html{
         height: 10vw;
         font-size: 4vw;
     }
-    .row-2 p{
-        font-size: 2.6vw;
-    }
+
     .modal-body p{
         font-size: 4vw;
     }
@@ -580,6 +585,7 @@ html{
         display: none;
     }
     .container {
+        justify-content: space-between;
         max-width: 100%;
     }
     .header__logo img {
@@ -695,11 +701,20 @@ html{
         display: block;
     }
     .img-3{
+        margin-top: -20%;
         text-align: end;
     }
     .btn-1 {
+        text-align: center;
         margin-bottom: 8%;
-        font-size: 5vw;
+        font-size: 4vw;
+        height: 10vw;
+    }
+    .btn-2 {
+        width: 60%;
+        margin-bottom: 8%;
+        font-size: 3vw;
+        height: 10vw;
     }
 }
 
@@ -725,6 +740,7 @@ html{
         display: none;
     }
     .container {
+        justify-content: space-between;
         max-width: 100%;
     }
     .header__burger {
@@ -837,13 +853,25 @@ html{
         display: none;
     }
     .btn-1 {
-        width: 100%;
         margin-bottom: 8%;
-        font-size: 5vw;
+        font-size: 4vw;
+    }
+    .btn-2 {
+        width: 90%;
+        margin-bottom: 8%;
+        font-size: 3vw;
+        height: 10vw;
     }
 }
 
 @media screen and (min-width: 502px) and (max-width: 767px) {
+    .btn-2 {
+        width: 90%;
+        margin-bottom: 8%;
+        font-size: 3vw;
+        height: 10vw;
+    }
+
     .section__staff{
         position: relative;
         margin-bottom: 25%;
@@ -873,6 +901,7 @@ html{
         width: 22vw;
     }
     .container {
+        justify-content: space-between;
         max-width: 100%;
     }
     .main {
@@ -983,6 +1012,11 @@ html{
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .btn-2 {
+        margin-bottom: 8%;
+        font-size: 2vw;
+        height: 7vw;
+    }
     .header__logo img {
         width: 20vw;
     }
@@ -1092,6 +1126,7 @@ html{
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1200px) {
+
     .img__head {
         margin-left: 5%;
         margin-top: 10%;

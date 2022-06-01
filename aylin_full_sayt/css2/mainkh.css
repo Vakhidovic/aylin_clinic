@@ -83,13 +83,16 @@ ul, ol {
     width: 33%;
 }
 .content__footer2 {
-    width: 36%;
+    width: 30%;
 }
 .content__footer3 {
     width: 30%;
 }
 
 @media screen and (max-width: 500px){
+    .content__prices h5{
+        font-size: 3.3vw;
+    }
     .col-12 p {
         font-size: 2.5vw;
     }
@@ -99,18 +102,23 @@ ul, ol {
     .content__footer2 h5, .content__footer3 h5{
         font-size: 3.6vw;
     }
+    .nav-list li{
+        margin: 24% 0;
+    }
     .nav-list li a{
         font-size: 3vw;
-        margin: 15px 0;
     }
     .nav-list li a:hover {
-        font-size: 3vw;
+        font-size: 3.4vw;
     }
     .br-1{
         display: block
     }
 }
 @media screen and (min-width: 501px) and (max-width: 767px){
+    .content__prices h5{
+        font-size: 3vw;
+    }
     .col-12 p {
         font-size: 2vw;
     }
@@ -120,8 +128,11 @@ ul, ol {
     .content__footer2 h5, .content__footer3 h5{
         font-size: 3.3vw;
     }
+    .nav-list li{
+        margin: 16% 0;
+    }
     .nav-list li a{
-        font-size: 2.4vw;
+        font-size: 2.6vw;
     }
     .nav-list li a:hover {
         font-size: 2.8vw;
@@ -150,6 +161,9 @@ ul, ol {
     }
     .content__footer3 h5, .content__footer2 h5{
         font-size: 3.3vw;
+    }
+    .nav-list li{
+        margin: 15% 0;
     }
     .nav-list li a {
         font-size: 2vw;

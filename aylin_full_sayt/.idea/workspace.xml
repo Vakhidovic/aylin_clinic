@@ -3,6 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="f382cf5c-e88f-4713-b12f-7ab7ec161b03" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/16324238e7c80c0c978b0f7fcb0217443f248c38/main.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/16324238e7c80c0c978b0f7fcb0217443f248c38/main.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/practice.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/practice.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css2/mainkh.css" beforeDir="false" afterPath="$PROJECT_DIR$/css2/mainkh.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/main.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,6 +100,7 @@
       <workItem from="1653813782581" duration="7359000" />
       <workItem from="1653927162991" duration="6798000" />
       <workItem from="1654016305647" duration="1561000" />
+      <workItem from="1654067953890" duration="4643000" />
     </task>
     <servers />
   </component>

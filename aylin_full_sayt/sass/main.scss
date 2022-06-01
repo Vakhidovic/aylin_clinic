@@ -26,6 +26,8 @@ body {
         .content__aboutUS {
           margin-left: 5%;
 
+
+
           .title p {
             font-family: 'Work Sans', sans-serif;
             font-style: normal;
@@ -166,6 +168,11 @@ body {
     }
 
     .section__laserMon {
+     .card__laser{
+       .row-2{
+         width: 80%;
+       }
+     }
       h2 {
         margin-top: 3%;
         font-size: 2.6vw;
@@ -175,6 +182,8 @@ body {
     }
   }
 }
+
+
 
 @media screen and (max-width: 620px) {
   body {
@@ -193,9 +202,11 @@ body {
           }
 
           .content__aboutUS {
+            h4{
+              font-size: 3.6vw;
+            }
             .title p {
               margin-top: 5%;
-              margin-bottom: -8%;
               font-size: 3.4vw;
             }
 
@@ -242,9 +253,15 @@ body {
                   font-size: 3.5vw;
                 }
 
-                .price p {
-                  font-size: 2.7vw;
-                  line-height: 8px;
+
+                .price {
+                  p {
+                    font-size: 2.9vw;
+                    line-height: 10px;
+                  }
+                  .withoutL{
+                    line-height: 20px;
+                  }
                 }
               }
             }
@@ -264,11 +281,15 @@ body {
           }
 
           .row-2 {
+            width: 100%;
             h4{
               font-size: 3.2vw;
             }
             h3{
               font-size: 3.8vw;
+            }
+            p{
+              font-size:3vw;
             }
             .mini-content-3 div {
               width: 27vw;
@@ -292,6 +313,9 @@ body {
 
         .container__aboutUS {
           .content__aboutUS {
+            h4{
+              font-size: 2.8vw;
+            }
             .title p {
               font-size: 1.8vw;
             }
@@ -383,6 +407,9 @@ body {
           .content__aboutUS {
             .title p {
               font-size: 2vw;
+            }
+            h4{
+              font-size: 2.4vw;
             }
 
             .list__facts li {
