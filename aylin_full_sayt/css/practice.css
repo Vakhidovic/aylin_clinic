@@ -458,7 +458,7 @@ html{
 }
 .hero-right > .layer-displayed-exit {
     transition-delay: 1s;
-    transition-duration: 0;
+    transition-duration: 0s;
     z-index: 1;
 }
 .hero-right > .layer:nth-child(1) {
@@ -554,6 +554,9 @@ html{
 }
 
 @media screen and (max-width: 450px) {
+    .main__container {
+        justify-content: center;
+    }
     .modal-footer button{
         width: 20vw;
         height: 10vw;
@@ -665,6 +668,7 @@ html{
         font-size: 5vw;
         text-align: center;
         height: 12vh;
+
     }
     .header__itemIcon {
         display: flex;

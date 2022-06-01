@@ -5873,6 +5873,7 @@ a.close.disabled {
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   padding: 1rem;
+  font-size: 2.2vh;
 }
 
 .modal-footer {
