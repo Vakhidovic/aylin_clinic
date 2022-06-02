@@ -80,6 +80,7 @@ body {
 
     .section__carusel {
       margin-top: 10vw;
+      height: 100%;
 
       h2 {
         margin-bottom: 2%;
@@ -196,6 +197,7 @@ body {
   body {
     .wrapper {
       .section__aboutUS {
+        margin-top: 0;
         h2 {
           display: none;
         }
@@ -211,19 +213,24 @@ body {
 
           .content__aboutUS {
             h4{
-              font-size: 3.6vw;
+              font-size: 3.9vw;
             }
             .title p {
               margin-top: 5%;
-              font-size: 3.4vw;
+              font-size: 3.6vw;
             }
 
             .list__facts li {
-              font-size: 2.9vw;
+              font-size: 3.2vw;
+            &::before{
+              content: '';
+              width: 2vw;
+              height: 2vw;
+            }
             }
 
             .paragraph__aboutUS p {
-              font-size: 2.8vw;
+              font-size: 3vw;
               margin-top: -7%;
             }
           }
@@ -231,7 +238,7 @@ body {
       }
       
       .section__carusel {
-        height: 50vh;
+        height: 140vw;
         h2{
          font-size: 5vw;
         }
@@ -239,7 +246,8 @@ body {
 
       .section__priceList {
         h2 {
-          font-size: 4.5vw;
+          font-size: 5vw;
+          margin: 3% 0;
         }
 
         .container {
@@ -248,7 +256,7 @@ body {
 
             .card__prices {
               width: 90%;
-              margin: 5% auto;
+              margin: 0 auto;
 
               .logo__priceList img {
                 width: 15vw;
@@ -266,7 +274,6 @@ body {
                 .price {
                   p {
                     font-size: 2.9vw;
-                    line-height: 10px;
                   }
                   .withoutL{
                     line-height: 20px;
@@ -279,6 +286,7 @@ body {
       }
 
       .section__laserMon {
+        margin-top: 0;
         h2 {
           font-size: 6vw;
         }
@@ -307,6 +315,10 @@ body {
             }
           }
         }
+      }
+
+      .footer-dark{
+        margin-top: 0;
       }
       }
     }
@@ -343,6 +355,7 @@ body {
       }
 
       .section__carusel {
+        height: 125vw;
         h2{
           font-size:3.8vw;
         }
