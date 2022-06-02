@@ -215,7 +215,9 @@ html{
 .img__head img {
     width: 40vw;
 }
-
+.content__head{
+    width: 100%;
+}
 .h1__style h1 {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -234,7 +236,7 @@ html{
 }
 
 .button {
-    width: 285px;
+    width: 60%;
     height: 5vw;
     border: 1px solid #d09d21;
     color: #d09d21;
@@ -348,7 +350,7 @@ html{
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 70%;
 }
 .hero-left {
     position: relative;
@@ -1172,7 +1174,7 @@ html{
      }
     .btn-1 {
         margin: 5% 0;
-        font-size: 2vw;
+        font-size: 1.4vw;
     }
 }
 

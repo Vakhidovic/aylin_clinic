@@ -231,7 +231,7 @@ body {
       }
       
       .section__carusel {
-        height: 70vh;
+        height: 50vh;
         h2{
          font-size: 5vw;
         }
@@ -461,10 +461,12 @@ body {
       }
 
       .section__laserMon {
+        margin-top: 0;
         h2 {
           font-size: 4vw;
         }
         .card__laser {
+          margin-top: 0;
           width: 100%;
           align-items: center;
           .img-3 {
@@ -491,6 +493,10 @@ body {
             }
           }
         }
+      }
+
+      .footer-dark{
+        margin-top: 0;
       }
     }
   }
