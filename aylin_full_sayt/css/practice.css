@@ -236,8 +236,8 @@ html{
 }
 
 .button {
-    width: 70%;
-    height: 5vw;
+    width: 50%;
+    height: 4vw;
     border: 1px solid #d09d21;
     color: #d09d21;
     display: flex;
@@ -246,6 +246,8 @@ html{
     box-sizing: border-box;
 }
 .btn-1 {
+    width: 60%;
+    height: 3.5vw;
     margin-top: 8%;
     border-radius: 50px;
 }
