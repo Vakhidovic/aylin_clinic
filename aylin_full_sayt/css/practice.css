@@ -295,7 +295,7 @@ html{
     font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size:1.1vw;
+    font-size:1.3vw;
     color: #151D28;
 }
 .btn-2 {
@@ -407,7 +407,7 @@ html{
 }
 .hero-left .layers .layer > h5 {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 1.8vw;
     font-weight: bold;
 }
 .layer__image img {

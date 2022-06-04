@@ -6,7 +6,7 @@
 .content__prices h5{
     font-weight: bold;
     text-align: left;
-    font-size: 1.6vw;
+    font-size: 1.4vw;
 }
 .modal-header button{
     font-size: 4vw;
@@ -15,12 +15,13 @@
     text-align: start;
 }
 .modal-header h3{
-    font-size: 2.5vw;
+    font-size: 2vw;
 }
 .modal-body p{
     font-family: 'Montserrat', sans-serif;
     padding: 1%;
-    line-height: 20px;
+    line-height: 32px;
+    font-size: 1.3vw;
 }
 .modal-text{
     display: flex;
@@ -34,11 +35,13 @@
 }
 .modal-text h6{
     padding: 1%;
+    font-weight: 600;
+    font-size: 1.1vw;
 }
 .content__aboutUS h4{
     margin-top: 5%;
     margin-bottom: -8%;
-    font-size: 1.4vw;
+    font-size: 1.5vw;
     font-family: 'Montserrat', sans-serif;
 }
 :root {--surface-color: #fff;--curve: 40;}
@@ -203,7 +206,7 @@ ul, ol {
 }
 @media screen and (min-width: 1024px){
     .col-12 p {
-        font-size: 1vw;
+        font-size: 1.2vw;
     }
     .contact-list dt, dd {
         font-size: 1vw;
