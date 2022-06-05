@@ -42,7 +42,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../js lesson2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -124,6 +124,7 @@
       <workItem from="1654149806139" duration="1080000" />
       <workItem from="1654183707750" duration="4627000" />
       <workItem from="1654322846454" duration="1663000" />
+      <workItem from="1654419506181" duration="1931000" />
     </task>
     <servers />
   </component>

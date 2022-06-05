@@ -53,7 +53,6 @@ body .wrapper .section__carusel {
     text-align: center;
     font-size: 2.5vw; }
 body .wrapper .section__priceList {
-  background-color: rgba(208, 157, 33, 0.35);
   padding: 3% 0;
   margin-top: 10vw; }
   body .wrapper .section__priceList h2 {
@@ -67,6 +66,10 @@ body .wrapper .section__priceList {
       margin: 1% auto;
       text-align: center;
       background-color: rgba(255, 255, 255, 0.4);
+      border-radius: 30px;
+      -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.09);
+      -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.09);
+      box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.09);
       padding: 4%; }
       body .wrapper .section__priceList .container .cards__price .card__prices .logo__priceList img {
         width: 10vw; }
@@ -74,14 +77,17 @@ body .wrapper .section__priceList {
         font-size: 1.8vw;
         margin: 4% 0;
         text-align: center;
-        font-weight: bolder; }
+        font-weight: 600;
+        color: #d09d21; }
       body .wrapper .section__priceList .container .cards__price .card__prices .content__prices h4 {
+        color: rgba(208, 157, 33, 0.8);
         font-size: 1.7vw;
         font-weight: 600; }
       body .wrapper .section__priceList .container .cards__price .card__prices .content__prices .price {
         display: flex;
         justify-content: space-between; }
         body .wrapper .section__priceList .container .cards__price .card__prices .content__prices .price p {
+          color: rgba(208, 157, 33, 0.8);
           font-size: 1.3vw;
           line-height: 20px; }
     body .wrapper .section__priceList .container .cards__price .card__prices-2 {

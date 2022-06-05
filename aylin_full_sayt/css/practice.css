@@ -224,7 +224,6 @@ html{
     font-weight: 700;
     font-size: 4vw;
     color: #d09d21;
-	margin-top: 20%;
 }
 
 .main__container {
@@ -267,6 +266,10 @@ html{
 }
 .card__laser {
     background-color: rgba(208, 157, 33, 0.35);
+    border-radius: 30px;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.09);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.09);
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.09);
     width: 80%;
     padding-top: 1%;
     margin: auto;
@@ -558,6 +561,9 @@ html{
 }
 
 @media screen and (max-width: 450px) {
+    .h1__style h1 {
+        margin: 0;
+    }
     .hero-left .layers .layer__info div {
         font-size: 4.5vw;
     }
@@ -698,7 +704,6 @@ html{
         font-size: 2vw;
     }
     .h1__style h1 {
-        margin-top: 38%;
         font-size: 33px;
         text-align: center;
     }
