@@ -1,0 +1,516 @@
+body {
+  .wrapper {
+
+    .section__aboutUS {
+      margin-top: 10vw;
+      padding: 3% 0;
+      box-sizing: border-box;
+
+
+      h2 {
+        font-family: 'Yeseva One', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.5vw;
+        line-height: 37px;
+        color: #d09d21;
+        text-align: center;
+        margin-bottom: 4%;
+      }
+
+      .container__aboutUS {
+        display: flex;
+
+        .img__aboutUS img {
+          width: 35vw;
+        }
+
+        .content__aboutUS {
+          padding: 0 5%;
+
+
+          .list__facts {
+            display: flex;
+            margin-top: 10%;
+
+            li {
+              margin-bottom: 5%;
+              font-family: 'Work Sans', sans-serif;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 1.4vw;
+              line-height: 140%;
+            }
+
+            li:before {
+              content: '';
+              width: 1vw;
+              height: 1vw;
+              background-color: #d09d21;
+              border-radius: 50%;
+              display: inline-block;
+              align-items: center;
+              margin: 0 10px 0 0;
+            }
+          }
+
+          .content__facts2 {
+            margin-left: 15%;
+          }
+
+          .paragraph__aboutUS p {
+            font-family: 'Work Sans', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.3vw;
+            line-height: 140%;
+          }
+        }
+      }
+    }
+
+    .section__carusel {
+      margin-top: 10vw;
+      height: 100%;
+
+      h2 {
+        margin-bottom: 2%;
+        color: #cf9d21;
+        text-align: center;
+        font-size: 2.5vw;
+      }
+    }
+
+    .section__priceList {
+       //background-color: rgba(208, 157, 33, 0.35);
+      padding: 3% 0;
+      margin-top: 5vw;
+
+      h2 {
+        font-size: 2.5vw;
+        color: #cf9d21;
+        text-align: center;
+      }
+
+      .container {
+        .cards__price {
+          display: flex;
+
+          .card__prices {
+            width: 48%;
+            margin: 1% auto;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.4);
+            border-radius: 30px;
+            -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.09);
+            -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.09);
+            box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.09);
+            padding: 4%;
+
+            .logo__priceList img {
+              width: 10vw;
+            }
+
+            .content__prices {
+              h3 {
+                font-size: 1.8vw;
+                margin: 4% 0;
+                text-align: center;
+                font-weight: 600;
+                color: rgb(208, 157, 33);
+
+              }
+              h4{
+                color: rgba(208, 157, 33, 0.8);
+                font-size: 1.7vw;
+                font-weight: 600;
+              }
+              .price {
+                display: flex;
+                justify-content: space-between;
+                p {
+                  color: rgba(208, 157, 33, 0.8);
+                  font-size: 1.3vw;
+                  line-height: 20px;
+                }
+              }
+            }
+          }
+
+          .card__prices-2 {
+            width: 48%;
+            margin: 1% auto;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.4);
+            padding: 4%;
+
+            .logo__priceList img {
+              width: 10vw;
+            }
+
+            .content__prices {
+              h3 {
+                font-size: 2vw;
+                margin: 4% 0;
+              }
+
+              .price {
+                display: flex;
+                justify-content: space-between;
+
+                p {
+                  font-size: 1vw;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .section__laserMon {
+      margin-top: 10vw;
+     .card__laser{
+       .row-2{
+         width: 80%;
+       }
+     }
+      h2 {
+        margin-top: 3%;
+        font-size: 2.5vw;
+        text-align: center;
+        color: #c89620;
+      }
+    }
+
+    .footer-dark{
+      margin-top: 10vw;
+    }
+  }
+}
+
+
+
+@media screen and (max-width: 620px) {
+  body {
+    .wrapper {
+      .section__aboutUS {
+        margin-top: 0;
+        h2 {
+          display: none;
+        }
+
+        .container__aboutUS {
+          display: block;
+          padding: 0;
+
+          .img__aboutUS img {
+            width: 100%;
+            margin-top: -3%;
+          }
+
+          .content__aboutUS {
+            h4{
+              font-size: 3.9vw;
+            }
+            .title p {
+              margin-top: 5%;
+              font-size: 3.6vw;
+            }
+
+            .list__facts li {
+              font-size: 3.2vw;
+            &::before{
+              content: '';
+              width: 2vw;
+              height: 2vw;
+            }
+            }
+
+            .paragraph__aboutUS p {
+              font-size: 3vw;
+              margin-top: -7%;
+            }
+          }
+        }
+      }
+      
+      .section__carusel {
+        height: 140vw;
+        h2{
+         font-size: 5vw;
+        }
+      }
+
+      .section__priceList {
+        h2 {
+          font-size: 5vw;
+          margin: 3% 0;
+        }
+
+        .container {
+          .cards__price {
+            display: block;
+
+            .card__prices {
+              width: 90%;
+              margin: 0 auto;
+
+              .logo__priceList img {
+                width: 15vw;
+              }
+
+              .content__prices {
+                h4{
+                  font-size: 3vw;
+                }
+                h3 {
+                  font-size: 3.5vw;
+                }
+
+
+                .price {
+                  p {
+                    font-size: 2.9vw;
+                  }
+                  .withoutL{
+                    line-height: 20px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .section__laserMon {
+        margin-top: 0;
+        h2 {
+          font-size: 6vw;
+        }
+        .card__laser {
+          width: 100%;
+          align-items: center;
+          .img-3 img{
+            width: 45vw;
+          }
+
+          .row-2 {
+            width: 100%;
+            h4{
+              font-size: 3.2vw;
+            }
+            h3{
+              font-size: 3.8vw;
+            }
+            p{
+              font-size:3vw;
+            }
+            .mini-content-3 div {
+              width: 27vw;
+              height: 6vw;
+              font-size: 2.3vw;
+            }
+          }
+        }
+      }
+
+      .footer-dark{
+        margin-top: 0;
+      }
+      }
+    }
+  }
+
+@media screen and (min-width: 621px) and (max-width: 767px) {
+  body {
+    .wrapper {
+      .section__aboutUS {
+        h2 {
+          font-size: 5vw;
+        }
+
+        .container__aboutUS {
+          .img__aboutUS {
+            img {
+              width: 50vw;
+            }
+          }
+          .content__aboutUS {
+            h4 {
+              font-size: 2.4vw;
+            }
+            .list__facts li {
+              font-size: 2.2vw;
+            }
+
+            .paragraph__aboutUS p {
+              margin-top: -7%;
+              font-size: 1.6vw;
+            }
+          }
+        }
+      }
+
+      .section__carusel {
+        height: 125vw;
+        h2{
+          font-size:3.8vw;
+        }
+        .section__staff {
+          
+        }
+      }
+
+      .section__priceList {
+         h2{
+           font-size: 4vw;
+         }
+        .container {
+          .cards__price {
+            .card__prices {
+              .content__prices {
+                h3{
+                  font-size: 2.6vw;
+                }
+                .price p {
+                  font-size: 1.5vw;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .section__laserMon {
+        h2 {
+          font-size: 5vw;
+        }
+        .card__laser {
+          width: 100%;
+          align-items: center;
+          .img-3 img{
+            width: 30vw;
+          }
+
+          .row-2 {
+            width: 100%;
+            h4{
+              font-size: 3vw;
+            }
+            h3{
+              font-size: 3.6vw;
+            }
+            p{
+              font-size: 2.1vw;
+
+            }
+            .mini-content-3 div {
+              width: 26vw;
+              height: 6vw;
+              font-size: 2.2vw;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  body {
+    .wrapper {
+      .section__aboutUS {
+        h2 {
+          font-size: 4vw;
+        }
+
+        .container__aboutUS {
+          .img__aboutUS{
+            img{
+              width: 50vw;
+            }
+          }
+          .content__aboutUS {
+            .title p {
+              font-size: 1.8vw;
+            }
+            h4{
+              font-size: 2vw;
+            }
+
+            .list__facts li {
+              font-size: 2vw;
+            }
+
+            .paragraph__aboutUS p {
+              margin-top: -7%;
+              font-size: 1.6vw;
+            }
+          }
+        }
+      }
+
+      .section__priceList {
+        h2{
+          font-size: 4.5vw;
+        }
+        .container {
+          .cards__price {
+            .card__prices {
+              .content__prices {
+                h3{
+                  font-size: 2.2vw;
+                }
+                .price p {
+                  font-size: 1.6vw;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .section__laserMon {
+        margin-top: 0;
+        h2 {
+          font-size: 4vw;
+        }
+        .card__laser {
+          margin-top: 0;
+          width: 100%;
+          align-items: center;
+          .img-3 {
+            display: flex;
+            align-items: center;
+            img {
+              width: 30vw;
+            }
+          }
+          .row-2 {
+            h4{
+              font-size: 2.8vw;
+            }
+            h3{
+                font-size: 3.4vw;
+            }
+            p{
+                  font-size: 2vw;
+            }
+            .mini-content-3 div {
+              width: 23vw;
+              height: 6vw;
+              font-size: 2vw;
+            }
+          }
+        }
+      }
+
+      .footer-dark{
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+//#d09d21
