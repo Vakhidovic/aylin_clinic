@@ -224,7 +224,6 @@ html{
     font-weight: 700;
     font-size: 4vw;
     color: #d09d21;
-	margin-top: 20%;
 }
 
 .main__container {
@@ -236,8 +235,8 @@ html{
 }
 
 .button {
-    width: 70%;
-    height: 5vw;
+    width: 50%;
+    height: 4vw;
     border: 1px solid #d09d21;
     color: #d09d21;
     display: flex;
@@ -246,6 +245,8 @@ html{
     box-sizing: border-box;
 }
 .btn-1 {
+    width: 60%;
+    height: 3.5vw;
     margin-top: 8%;
     border-radius: 50px;
 }
@@ -265,6 +266,10 @@ html{
 }
 .card__laser {
     background-color: rgba(208, 157, 33, 0.35);
+    border-radius: 30px;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.09);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.09);
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.09);
     width: 80%;
     padding-top: 1%;
     margin: auto;
@@ -293,7 +298,7 @@ html{
     font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size:1.1vw;
+    font-size:1.3vw;
     color: #151D28;
 }
 .btn-2 {
@@ -405,7 +410,7 @@ html{
 }
 .hero-left .layers .layer > h5 {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 1.8vw;
     font-weight: bold;
 }
 .layer__image img {
@@ -556,6 +561,9 @@ html{
 }
 
 @media screen and (max-width: 450px) {
+    .h1__style h1 {
+        margin: 0;
+    }
     .hero-left .layers .layer__info div {
         font-size: 4.5vw;
     }
@@ -696,7 +704,6 @@ html{
         font-size: 2vw;
     }
     .h1__style h1 {
-        margin-top: 38%;
         font-size: 33px;
         text-align: center;
     }
