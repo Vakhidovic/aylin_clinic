@@ -23,7 +23,7 @@ function changeCoverAnimState(state = 0) {
 }
 
 function switchLayer(step = 1) {
-	const nextSlide = (sliderIndex + step) % 3 === 0 ? 3 : (sliderIndex + step) % 3;
+	const nextSlide = (sliderIndex + step) % 5 === 0 ? 5 : (sliderIndex + step) % 5;
 
 	changeCoverAnimState(1);
 	clearTimeout(timeout);

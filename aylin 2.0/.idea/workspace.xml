@@ -33,7 +33,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../aylin_full_sayt/index.html" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -117,6 +117,7 @@
       <workItem from="1654322846454" duration="1663000" />
       <workItem from="1654419506181" duration="1931000" />
       <workItem from="1654500524207" duration="295000" />
+      <workItem from="1654501207654" duration="3692000" />
     </task>
     <servers />
   </component>
