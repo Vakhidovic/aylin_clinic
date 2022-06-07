@@ -119,10 +119,12 @@ body .wrapper .section__priceList .container .cards__price .card__prices .conten
   font-size: 1.8vw;
   margin: 4% 0;
   text-align: center;
-  font-weight: bolder;
+  font-weight: 600;
+  color: #d09d21;
 }
 
 body .wrapper .section__priceList .container .cards__price .card__prices .content__prices h4 {
+  color: rgba(208, 157, 33, 0.8);
   font-size: 1.7vw;
   font-weight: 600;
 }
