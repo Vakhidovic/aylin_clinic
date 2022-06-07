@@ -53,8 +53,8 @@ body .wrapper .section__carusel {
     text-align: center;
     font-size: 2.5vw; }
 body .wrapper .section__priceList {
-  padding: 3% 0;
-  margin-top: 10vw; }
+  padding-top: 5%;
+  margin-top: 5vw; }
   body .wrapper .section__priceList h2 {
     font-size: 2.5vw;
     color: #cf9d21;
@@ -143,30 +143,31 @@ body .wrapper .footer-dark {
       body .wrapper .section__aboutUS .container__aboutUS .content__aboutUS .paragraph__aboutUS p {
         font-size: 3vw;
         margin-top: -7%; }
-  body .wrapper .section__carusel {
-    height: 140vw; }
-    body .wrapper .section__carusel h2 {
-      font-size: 5vw; }
-  body .wrapper .section__priceList h2 {
-    font-size: 5vw;
-    margin: 3% 0; }
-  body .wrapper .section__priceList .container .cards__price {
-    display: block; }
-    body .wrapper .section__priceList .container .cards__price .card__prices {
-      width: 90%;
-      margin: 0 auto; }
-      body .wrapper .section__priceList .container .cards__price .card__prices .logo__priceList img {
-        width: 15vw; }
-      body .wrapper .section__priceList .container .cards__price .card__prices .content__prices h4 {
-        font-size: 3vw; }
-      body .wrapper .section__priceList .container .cards__price .card__prices .content__prices h3 {
-        font-size: 3.5vw; }
-      body .wrapper .section__priceList .container .cards__price .card__prices .content__prices .price p {
-        font-size: 2.9vw; }
-      body .wrapper .section__priceList .container .cards__price .card__prices .content__prices .price .withoutL {
-        line-height: 20px; }
+  body .wrapper .section__carusel h2 {
+    font-size: 5.5vw; }
+  body .wrapper .section__priceList {
+    padding-top: 10%; }
+    body .wrapper .section__priceList h2 {
+      font-size: 5vw;
+      margin: 3% 0; }
+    body .wrapper .section__priceList .container .cards__price {
+      display: block; }
+      body .wrapper .section__priceList .container .cards__price .card__prices {
+        width: 90%;
+        margin: 0 auto; }
+        body .wrapper .section__priceList .container .cards__price .card__prices .logo__priceList img {
+          width: 15vw; }
+        body .wrapper .section__priceList .container .cards__price .card__prices .content__prices h4 {
+          font-size: 3vw; }
+        body .wrapper .section__priceList .container .cards__price .card__prices .content__prices h3 {
+          font-size: 3.5vw; }
+        body .wrapper .section__priceList .container .cards__price .card__prices .content__prices .price p {
+          font-size: 2.9vw; }
+        body .wrapper .section__priceList .container .cards__price .card__prices .content__prices .price .withoutL {
+          line-height: 20px; }
   body .wrapper .section__laserMon {
-    margin-top: 0; }
+    margin-top: 0;
+    padding: 15% 4%; }
     body .wrapper .section__laserMon h2 {
       font-size: 6vw; }
     body .wrapper .section__laserMon .card__laser {
@@ -200,16 +201,16 @@ body .wrapper .footer-dark {
   body .wrapper .section__aboutUS .container__aboutUS .content__aboutUS .paragraph__aboutUS p {
     margin-top: -7%;
     font-size: 1.6vw; }
-  body .wrapper .section__carusel {
-    height: 125vw; }
-    body .wrapper .section__carusel h2 {
-      font-size: 3.8vw; }
-  body .wrapper .section__priceList h2 {
-    font-size: 4vw; }
-  body .wrapper .section__priceList .container .cards__price .card__prices .content__prices h3 {
-    font-size: 2.6vw; }
-  body .wrapper .section__priceList .container .cards__price .card__prices .content__prices .price p {
-    font-size: 1.5vw; }
+  body .wrapper .section__carusel h2 {
+    font-size: 5vw; }
+  body .wrapper .section__priceList {
+    padding-top: 25%; }
+    body .wrapper .section__priceList h2 {
+      font-size: 4vw; }
+    body .wrapper .section__priceList .container .cards__price .card__prices .content__prices h3 {
+      font-size: 2.6vw; }
+    body .wrapper .section__priceList .container .cards__price .card__prices .content__prices .price p {
+      font-size: 1.5vw; }
   body .wrapper .section__laserMon h2 {
     font-size: 5vw; }
   body .wrapper .section__laserMon .card__laser {

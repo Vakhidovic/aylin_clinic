@@ -82,8 +82,7 @@ body {
     }
 
     .section__priceList {
-       //background-color: rgba(208, 157, 33, 0.35);
-      padding: 3% 0;
+      padding-top: 5%;
       margin-top: 5vw;
 
       h2 {
@@ -236,13 +235,13 @@ body {
       }
       
       .section__carusel {
-        height: 140vw;
         h2{
-         font-size: 5vw;
+         font-size: 5.5vw;
         }
       }
 
       .section__priceList {
+        padding-top:10%;
         h2 {
           font-size: 5vw;
           margin: 3% 0;
@@ -285,6 +284,7 @@ body {
 
       .section__laserMon {
         margin-top: 0;
+        padding: 15% 4%;
         h2 {
           font-size: 6vw;
         }
@@ -353,9 +353,8 @@ body {
       }
 
       .section__carusel {
-        height: 125vw;
         h2{
-          font-size:3.8vw;
+          font-size: 5vw;
         }
         .section__staff {
           
@@ -363,6 +362,7 @@ body {
       }
 
       .section__priceList {
+        padding-top: 25%;
          h2{
            font-size: 4vw;
          }

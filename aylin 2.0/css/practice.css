@@ -78,6 +78,7 @@ html {
 }
 
 .wrapper {
+    background-color: snow;
     width: 100%;
     overflow: hidden;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -436,7 +437,7 @@ html {
     display: grid;
     /*grid-template-columns: 1fr 2fr;*/
     height: 37vw;
-
+    padding: 0 5%;
 }
 
 .layer {
@@ -472,6 +473,7 @@ html {
     z-index: 2;
 }
 
+
 .hero-left button:last-of-type {
     right: 0;
 }
@@ -488,8 +490,6 @@ html {
 }
 
 .hero-left .layers .layer {
-    /*display: grid;*/
-    /*grid-template-rows: 6rem 3fr 1fr;*/
     transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
     transition-delay: 0.5s;
     transform: translateX(100%);
@@ -512,6 +512,8 @@ html {
     text-align: center;
     font-size: 1.8vw;
     font-weight: bold;
+    color: #d09d21;
+    padding: 3% 0;
 }
 
 .layer__image img {
@@ -525,7 +527,7 @@ html {
 }
 
 .hero-left .layers .layer__info {
-    width: 70%;
+    width: 80%;
     margin: auto;
     padding: 4% 0;
 
@@ -593,61 +595,27 @@ html {
     background-color: var(--color3);
 }
 
-/*.hero-right .photo-name {*/
-/*    position: absolute;*/
-/*    top: 33%;*/
-/*    left: 50%;*/
-/*    width: 20%;*/
-/*    font-size: 1.5rem;*/
-/*    z-index: 2;*/
-/*}*/
-.hero-right .photo-name span {
-    display: block;
-}
-
-.hero-right .photo-name__wrapper {
-    position: relative;
-}
-
-.hero-right .photo-name__title {
-    font-weight: bold;
-}
-
-.hero-right .photo-name .layer {
-    padding: 10px;
-    transform: translateX(-100%);
-    transition: transform 0.5s cubic-bezier(0.55, 0, 0.1, 1);
-
-}
-
-.hero-right .photo-name .layer-displayed {
-    transform: translateX(0);
-    transition-delay: 0.5s;
-}
-
 .hero-right .photo-frame {
     position: absolute;
     overflow: hidden;
     animation-play-state: paused;
 }
 
-.hero-right .photo-frame:nth-child(4) {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.hero-right .photo-frame:nth-child(6) {
+    top: 10%;
+    left: 10%;
     width: 40%;
     height: 40%;
     z-index: 3;
 }
 
-.hero-right .photo-frame:nth-child(4) .cover {
+.hero-right .photo-frame:nth-child(6) .cover {
     background-color: #e2af21;
 }
 
 .hero-right .photo-frame:last-child {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    top: 40%;
+    left: 30%;
     width: 65%;
     height: 50%;
     z-index: 2;
@@ -691,12 +659,12 @@ html {
 }
 
 @media screen and (max-width: 450px) {
-    .h1__style h1 {
-        margin: 0;
+    .hero-left .layers .layer > h5 {
+        font-size: 3.5vw;
     }
 
-    .hero-left .layers .layer__info div {
-        font-size: 4.5vw;
+    .h1__style h1 {
+        margin: 0;
     }
 
     .main__container {
@@ -715,22 +683,25 @@ html {
 
     .section__staff {
         position: relative;
-        margin-bottom: 38%
+        height: 70vw;
     }
 
     .hero-left {
         position: absolute;
         width: 100vw;
-        height: 140vw;
+        height: 70vw;
     }
 
     .layer__image img {
-        margin-top: -20%;
         width: 70vw
     }
 
-    .layer__info div {
-        font-size: 2.8vw;
+    .hero-left .layers .layer__info {
+        width: 80%;
+    }
+
+    .hero-left .layers .layer__info p {
+        font-size:3vw;
     }
 
     .hero-right {
@@ -922,22 +893,21 @@ html {
 
     .section__staff {
         position: relative;
-        margin-bottom: 25%
+        height: 70vw;
     }
 
-    .hero-left {
-        width: 100vw;
-        height: 60vh;
+    .hero-left .layers .layer__info {
+        width: 90%;
+    }
+
+    .hero-left .layers .layer__info p {
+        font-size: 3.3vw;
     }
 
     .layer__image img {
-        margin-top: -15%;
         width: 80vw
     }
 
-    .layer__info div {
-        font-size: 2.2vw;
-    }
 
     .hero-right {
         display: none;
@@ -1094,12 +1064,13 @@ html {
         font-size: 3vw;
         height: 10vw;
     }
+    .hero-left .layers .layer > h5 {
+        font-size: 4vw;
+    }
 }
 
 @media screen and (min-width: 502px) and (max-width: 767px) {
-    .hero-left .layers .layer__info div {
-        font-size: 3.5vw;
-    }
+
 
     .contents__laser {
         display: block;
@@ -1129,18 +1100,18 @@ html {
     }
 
     .layer__image img {
-        width: 60vw;
+        width: 80vw;
     }
 
-    .layer__info div {
-        font-size: 2.2vw;
-    }
 
-    .layer h5 {
+    .hero-left .layers .layer > h5 {
         text-align: center;
         color: #d09d21;
         font-size: 3.5vw;
-        margin-bottom: -3%;
+    }
+
+    .hero-left .layers .layer__info p {
+        font-size: 3vw;
     }
 
     .hero-right {
