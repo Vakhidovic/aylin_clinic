@@ -437,7 +437,7 @@ html {
     display: grid;
     /*grid-template-columns: 1fr 2fr;*/
     height: 40vw;
-    padding: 0 5%;
+    /*padding: 0 5%;*/
 }
 
 .layer {
@@ -518,6 +518,7 @@ html {
 
 .layer__image img {
     width: 35vw;
+    border-radius: 30px;
 }
 
 .layer__image {
@@ -561,6 +562,8 @@ html {
 }
 .hero-right > .layer:nth-child(1) {
     background-color: var(--color1);
+    -moz-border-radius-topleft: 30px;
+    -moz-border-radius-bottomleft: 30px;
 }
 .hero-right > .layer:nth-child(2) {
     background-color: var(--color2);

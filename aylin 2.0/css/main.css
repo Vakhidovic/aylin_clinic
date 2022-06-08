@@ -14,7 +14,11 @@ body .wrapper .section__aboutUS {
   body .wrapper .section__aboutUS .container__aboutUS {
     display: flex; }
     body .wrapper .section__aboutUS .container__aboutUS .img__aboutUS img {
-      width: 35vw; }
+      width: 35vw;
+      border-radius: 30px;
+      -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.09);
+      -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.09);
+      box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.09); }
     body .wrapper .section__aboutUS .container__aboutUS .content__aboutUS {
       padding: 0 5%; }
       body .wrapper .section__aboutUS .container__aboutUS .content__aboutUS .list__facts {
