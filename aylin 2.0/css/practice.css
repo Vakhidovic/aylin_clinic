@@ -1087,10 +1087,10 @@ html {
     }
 
     .btn-2 {
-        width: 50%;
         margin-bottom: 8%;
-        font-size: 2.8vw;
-        height: 10vw;
+        font-size: 1.7vw;
+        height: 5vw;
+        width: 40%;
     }
 
     .section__staff {
@@ -1133,7 +1133,7 @@ html {
     }
 
     .main {
-        padding-top: 30%;
+        padding-top: 20%;
         height: 100vh;
     }
 
@@ -1265,8 +1265,9 @@ html {
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .btn-2 {
         margin-bottom: 8%;
-        font-size: 2vw;
-        height: 7vw;
+        font-size: 1.5vw;
+        height: 5vw;
+        width: 60%;
     }
 
     .header__logo img {
