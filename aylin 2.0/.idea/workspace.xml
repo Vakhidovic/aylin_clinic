@@ -36,7 +36,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../aylin_full_sayt/index.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../js lesson2/js if else" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -121,7 +121,11 @@
       <workItem from="1654419506181" duration="1931000" />
       <workItem from="1654500524207" duration="295000" />
       <workItem from="1654501207654" duration="3692000" />
+<<<<<<< Updated upstream
       <workItem from="1654615121145" duration="6384000" />
+=======
+      <workItem from="1654580406614" duration="3923000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
@@ -143,6 +147,10 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/aylin_full_sayt$index_html.dat" NAME="index.html Coverage Results" MODIFIED="1654086479129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+<<<<<<< Updated upstream
     <SUITE FILE_PATH="coverage/aylin_2_0$index_html.dat" NAME="index.html Coverage Results" MODIFIED="1654615357577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+=======
+    <SUITE FILE_PATH="coverage/aylin_2_0$index_html.dat" NAME="index.html Coverage Results" MODIFIED="1654582555281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+>>>>>>> Stashed changes
   </component>
 </project>

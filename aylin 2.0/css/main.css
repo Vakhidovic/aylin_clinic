@@ -53,7 +53,11 @@ body .wrapper .section__carusel {
     text-align: center;
     font-size: 2.5vw; }
 body .wrapper .section__priceList {
+<<<<<<< Updated upstream
   padding-top: 5%;
+=======
+  padding: 3% 0;
+>>>>>>> Stashed changes
   margin-top: 5vw; }
   body .wrapper .section__priceList h2 {
     font-size: 2.5vw;
