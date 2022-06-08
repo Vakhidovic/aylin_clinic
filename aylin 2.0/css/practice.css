@@ -436,7 +436,7 @@ html {
 .section__staff {
     display: grid;
     /*grid-template-columns: 1fr 2fr;*/
-    height: 37vw;
+    height: 40vw;
     padding: 0 5%;
 }
 
@@ -575,8 +575,6 @@ html {
      background-color: var(--color3);
  }
 
-<<<<<<< Updated upstream
-=======
 .hero-right .photo-name {
     position: absolute;
     top: 33%;
@@ -603,19 +601,15 @@ html {
     transform: translateX(0);
     transition-delay: 0.5s;
 }
->>>>>>> Stashed changes
+
 .hero-right .photo-frame {
     position: absolute;
     overflow: hidden;
     animation-play-state: paused;
 }
-<<<<<<< Updated upstream
-
-=======
 .photo-frame img{
     width: 35vw;
 }
->>>>>>> Stashed changes
 .hero-right .photo-frame:nth-child(6) {
     top: 10%;
     left: 10%;
@@ -623,20 +617,13 @@ html {
     height: 40%;
     z-index: 15;
 }
-<<<<<<< Updated upstream
 
-=======
->>>>>>> Stashed changes
 .hero-right .photo-frame:nth-child(6) .cover {
     background-color: #e2af21;
 }
 .hero-right .photo-frame:last-child {
     top: 40%;
-<<<<<<< Updated upstream
     left: 30%;
-=======
-    left: 20%;
->>>>>>> Stashed changes
     width: 65%;
     height: 50%;
     z-index: 2;
