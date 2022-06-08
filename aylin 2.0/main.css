@@ -3,7 +3,7 @@ body {
     display: flex;
 }
 
-#faq {
+.faq {
     max-width: 700px;
     margin: auto;
     padding: 0 15px;
@@ -15,26 +15,26 @@ section.faq {
     padding-bottom: 3em;
 }
 
-#faq ul {
+.faq ul {
     text-align: left;
 }
 .transition, p, ul li i:before, ul li i:after {
     transition: all 0.3s;
 }
 
-#faq .no-select, #faq h2 {
+.faq .no-select, #faq h2 {
     -webkit-tap-highlight-color: transparent;
     -webkit-touch-callout: none;
     user-select: none;
 }
 
-#faq h1 {
+.faq h1 {
     color: #000;
     margin-bottom: 30px;
     margin-top: 0;
 }
 
-#faq h2 {
+.faq h3 {
     color: #cc071e;
     font-family: 'hm_light', sans-serif;
     font-size: 20px;
@@ -49,8 +49,22 @@ section.faq {
     cursor: pointer;
     transition: .2s;
 }
-
-#faq p {
+.faq h4 {
+    color: #cc071e;
+    font-family: 'hm_light', sans-serif;
+    font-size: 20px;
+    line-height: 34px;
+    text-align: left;
+    padding: 15px 15px 0;
+    text-transform: none;
+    font-weight: 300;
+    letter-spacing: 1px;
+    display: block;
+    margin: 0;
+    cursor: pointer;
+    transition: .2s;
+}
+.price p {
     color: #333;
     text-align: left;
     font-family: 'hm_light', sans-serif;
@@ -72,13 +86,13 @@ section.faq {
     z-index: 2;
 }
 
-#faq ul {
+.faq ul {
     list-style: none;
     perspective: 900;
     padding: 0;
     margin: 0;
 }
-#faq ul li {
+.faq ul li {
     position: relative;
     overflow: hidden;
     padding: 0;
@@ -87,32 +101,32 @@ section.faq {
     /*padding-top: 18px;*/
     -webkit-tap-highlight-color: transparent;
 }
-#faq ul li + li {
+.faq ul li + li {
     margin-top: 15px;
 }
-#faq ul li:last-of-type {
+.faq ul li:last-of-type {
     padding-bottom: 0;
 }
-#faq ul li i {
+.faq ul li i {
     position: absolute;
     transform: translate(-6px, 0);
     margin-top: 28px;
     right: 15px;
 }
-#faq ul li i:before, ul li i:after {
+.faq ul li i:before, ul li i:after {
     content: "";
     position: absolute;
     background-color: #cc071e;
     width: 3px;
     height: 9px;
 }
-#faq ul li i:before {
+.faq ul li i:before {
     transform: translate(-2px, 0) rotate(45deg);
 }
-#faq ul li i:after {
+.faq ul li i:after {
     transform: translate(2px, 0) rotate(-45deg);
 }
-#faq ul li input[type=checkbox] {
+.faq ul li input[type=checkbox] {
     position: absolute;
     cursor: pointer;
     width: 100%;
@@ -121,20 +135,34 @@ section.faq {
     opacity: 0;
     touch-action: manipulation;
 }
-#faq ul li input[type=checkbox]:checked ~ h2 {
+.faq ul li input[type=checkbox]:checked ~ h2 {
     color: #000;
 }
-#faq ul li input[type=checkbox]:checked ~ p {
+.faq ul li input[type=checkbox]:checked ~ h4 {
     /*margin-top: 0;*/
     max-height: 0;
     transition: .3s;
     opacity: 0;
     /*transform: translate(0, 50%);*/
 }
-#faq ul li input[type=checkbox]:checked ~ i:before {
+.faq ul li input[type=checkbox]:checked ~ h5 {
+    /*margin-top: 0;*/
+    max-height: 0;
+    transition: .3s;
+    opacity: 0;
+    /*transform: translate(0, 50%);*/
+}
+.faq ul li input[type=checkbox]:checked ~ .price p {
+    /*margin-top: 0;*/
+    max-height: 0;
+    transition: .3s;
+    opacity: 0;
+    /*transform: translate(0, 50%);*/
+}
+.faq ul li input[type=checkbox]:checked ~ i:before {
     transform: translate(2px, 0) rotate(45deg);
 }
-#faq ul li input[type=checkbox]:checked ~ i:after {
+.faq ul li input[type=checkbox]:checked ~ i:after {
     transform: translate(-2px, 0) rotate(-45deg);
 }
 
