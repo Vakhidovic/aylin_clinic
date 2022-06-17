@@ -120,7 +120,6 @@ html {
 
 
 .header__content {
-    align-items: center;
     display: flex;
     justify-content: space-between;
 }
@@ -212,8 +211,8 @@ html {
 }
 
 .main {
-    /* margin-top: 7%; */
-    padding: 6% 0;
+    margin-top: 7%;
+    padding: 4% 0;
     background-color: rgba(213, 161, 34, 0.21);
 }
 
@@ -248,7 +247,6 @@ html {
     margin-top: 10%;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.4vw;
-    line-height: 30px;
     color: #e4a924;
 }
 .content__head {
@@ -290,16 +288,14 @@ html {
     width: 21vw;
 
 }
-.img-3 {
-    height: 100%;
-}
+
 .card__laser {
-    background-color: rgba(208, 158, 33, 0.185);
+    background-color: rgba(208, 157, 33, 0.35);
     border-radius: 30px;
     -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.09);
     -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.09);
     box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.09);
-    /* width: 80%; */
+    width: 80%;
     padding-top: 1%;
     margin: auto;
 }
@@ -329,22 +325,19 @@ html {
     font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 1.7vw;
-    color: #d09d21
+    font-size: 1.6vw;
 }
 
 .row-2 > p {
     font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 1.5vw;
-    color: #d09e21bd;
+    font-size: 1.3vw;
 
 }
 
 .btn-2 {
-    margin: auto;
-    margin-top: 30px;
+    margin-top: 5%;
     border-radius: 50px;
     font-size: 1.4vw;
 }
@@ -477,9 +470,9 @@ html {
 .layer__image img {
     width: 35vw;
     border-radius: 30px;
-    -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.288);
-    -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.288);
-    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.288);
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.09);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.09);
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.09);
 }
 
 .layer__image {
@@ -609,15 +602,13 @@ html {
     .paragraf__header{
         width: 80%;
         margin: auto;
-        text-align: center;
     }
     .paragraf__header p{
-        margin-top: 20%;
-        font-size: 5vw;
-        line-height: 25px;
+        margin-top: 15%;
+        font-size: 4.5vw;
     }
     .hero-left .layers .layer > h5 {
-        font-size: 5vw;
+        font-size: 3.5vw;
     }
 
     .h1__style h1 {
@@ -668,9 +659,6 @@ html {
     .container {
         justify-content: space-between;
         max-width: 100%;
-    }
-    .section_priceList.container {
-        padding: 0;
     }
 
     .header__logo img {
@@ -787,8 +775,8 @@ html {
     }
 
     .main {
-        /*height: 100vh;*/
-        padding-top: 30%;
+        height: 100vh;
+        padding-top: 20%;
     }
 
     .modal-text button {
@@ -819,7 +807,6 @@ html {
 
     .contents__laser {
         display: block;
-        margin-bottom: 100px;
     }
 
     .img-3 {
@@ -829,7 +816,7 @@ html {
 
     .btn-1 {
         width: 70%;
-        margin: 5% auto 15% auto;
+        margin: 10% auto 15% auto;
         text-align: center;
         font-size: 4.5vw;
         height: 13vw;
@@ -838,8 +825,6 @@ html {
     .btn-2 {
         width: 60%;
         margin-bottom: 8%;
-        margin-left: auto;
-        margin-right: auto;
         font-size: 3vw;
         height: 10vw;
     }
@@ -997,7 +982,9 @@ html {
     .titles__header {
         text-align: center;
     }
-
+.main{
+    height: 100vh;
+}
     .main__container {
         display: block;
         width: 100%;
@@ -1060,8 +1047,14 @@ html {
     font-size: 3.5vw;
 }
 
+    .contents__laser {
+        display: block;
+    }
 
-
+    .img-3 {
+        margin-top: -25%;
+        text-align: end;
+    }
 
     .btn-2 {
         margin-bottom: 8%;
@@ -1111,6 +1104,7 @@ html {
 
     .main {
         padding-top: 20%;
+        height: 100vh;
     }
 
     .header__burger {
