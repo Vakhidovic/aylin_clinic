@@ -68,7 +68,7 @@ body .wrapper .section__aboutUS {
 	 font-size: 2.5vw;
 }
  body .wrapper .section__priceList {
-	 padding-top: 5%;
+	 padding-top: 10%;
 	 margin-top: 5vw;
 }
  body .wrapper .section__priceList h2 {
@@ -181,24 +181,19 @@ body .wrapper .section__aboutUS {
 /*	 justify-content: center;*/
 /*}*/
  @media screen and (max-width: 620px) {
-	  body .wrapper .section__aboutUS .container__aboutUS .content__aboutUS .list__facts {
-	  	justify-content: center;
-	  }
 	 body .wrapper .section__aboutUS {
 		 margin-top: 0;
 		 padding-top: 10%;
 	}
 	 body .wrapper .section__aboutUS h2 {
 		 font-size: 7vw;
+		 display: none;
 	}
 	 body .wrapper .section__aboutUS .container__aboutUS {
 		 display: block;
 		 padding: 0;
 	}
-	 body .wrapper .section__aboutUS .container__aboutUS .img__aboutUS img {
-		 border-radius: 0;
-		 width: 100%;
-	}
+
 	 body .wrapper .section__aboutUS .container__aboutUS .content__aboutUS h4 {
 		 font-size: 6vw;
 		text-align: center;
@@ -230,7 +225,7 @@ body .wrapper .section__aboutUS {
 
 	 body .wrapper .section__priceList h2 {
 		 font-size: 7vw;
-		 margin: 3% 0;
+		 margin: 3% 0 10% 0;
 	}
 	 body .wrapper .section__priceList .container .cards__price {
 		 display: block;
@@ -309,23 +304,67 @@ body .wrapper .section__aboutUS {
 	 	 justify-content: center;
 	 }
 }
+@media screen and (min-width: 502px) and (max-width: 767px){
+	body .wrapper .section__aboutUS .container__aboutUS .content__aboutUS{
+		padding-top: 15%;
+	}
+}
+
+@media screen and (max-width: 767px){
+	body .wrapper .section__aboutUS .container__aboutUS .img__aboutUS img {
+		border-radius: 0;
+		width: 100%;
+		position: absolute;
+		top: 5%;
+		filter: brightness(0.6);
+	}
+	body .wrapper .section__carusel{
+		margin-top: 10vw;
+	}
+}
+
  @media screen and (min-width: 621px) and (max-width: 767px) {
 	 body .wrapper .section__aboutUS h2 {
 		 font-size: 5vw;
 	}
-	 body .wrapper .section__aboutUS .container__aboutUS .img__aboutUS img {
-		 width: 50vw;
-	}
+
+	 body .wrapper .section__aboutUS {
+		 margin-top: 0;
+		 padding-top: 10%;
+	 }
+	 body .wrapper .section__aboutUS h2 {
+		 font-size: 7vw;
+		 display: none;
+	 }
+	 body .wrapper .section__aboutUS .container__aboutUS {
+		 display: block;
+		 padding: 0;
+	 }
+	 body .wrapper .section__aboutUS .container__aboutUS .content__aboutUS{
+		 padding-top: 20%;
+	 }
 	 body .wrapper .section__aboutUS .container__aboutUS .content__aboutUS h4 {
-		 font-size: 2.4vw;
-	}
+		 font-size: 6vw;
+		 text-align: center;
+		 color: #d09d21;
+	 }
+	 body .wrapper .section__aboutUS .container__aboutUS .content__aboutUS .title p {
+		 margin-top: 5%;
+		 font-size: 3.6vw;
+	 }
 	 body .wrapper .section__aboutUS .container__aboutUS .content__aboutUS .list__facts li {
-		 font-size: 2.2vw;
-	}
+		 font-size: 4vw;
+	 }
+	 body .wrapper .section__aboutUS .container__aboutUS .content__aboutUS .list__facts li::before {
+		 content: '';
+		 width: 2vw;
+		 height: 2vw;
+	 }
 	 body .wrapper .section__aboutUS .container__aboutUS .content__aboutUS .paragraph__aboutUS p {
-		 margin-top: -7%;
-		 font-size: 1.6vw;
-	}
+		 font-size: 4vw;
+		 margin-top: -9%;
+		 text-align: justify;
+	 }
 	 body .wrapper .section__carusel h2 {
 		 font-size: 5vw;
 	}
