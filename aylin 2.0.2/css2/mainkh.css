@@ -9,19 +9,40 @@
     font-size: 1.4vw;
     color: #d09d21;
 }
+
 .modal-header button{
-    font-size: 4vw;
+    font-size: 2vw;
 }
 .modal-content{
+    box-shadow: 0px 0px 15px 0px rgb(0 0 0 / 61%);
+padding-bottom: 3%;
     text-align: start;
+    border-radius: 25px;
+    padding-bottom: 1.5%;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    padding-bottom:2%;
+}
+.modal-header{
+    width: 100%;
 }
 .modal-header h3{
     font-size: 2vw;
+    color: #775500;
+}
+.modal-body{
+    height: 50vh;
+    box-sizing: border-box;
+    overflow-y: scroll;
+  
+    overscroll-behavior-y: 30px;
 }
 .modal-body p{
     font-family: 'Montserrat', sans-serif;
     padding: 1%;
     font-size: 1.3vw;
+    color: #946c06;
 }
 .modal-text{
     display: flex;
@@ -30,13 +51,14 @@
 
 }
 .modal-text button{
-    height: 4vh;
+    height: 5vh;
     font-size: 1vw;
 }
 .modal-text h6{
     padding: 1%;
     font-weight: 600;
     font-size: 1.1vw;
+    color: #775500;
 }
 .content__aboutUS h4{
     margin-top: 5%;
@@ -73,7 +95,6 @@ body {
 
 .nav-list li a:hover {
     color: silver;
-    font-size: 1vw;
 }
 ul, ol {
     list-style: none;
@@ -90,6 +111,7 @@ ul, ol {
 .contact-list dd {
     font-size: 1vw;
     color: white;
+    line-height: 25px;
 }
 .content__footer2 h5, .content__footer3 h5{
     font-size: 1.6vw;
@@ -100,9 +122,7 @@ ul, ol {
 .social-inner i{
     font-size: 35px;
 }
-.social-inner:hover {
-    font-size: 40px;
-}
+
 .content__footer4{
     padding-top: 5%;
 }
@@ -289,7 +309,14 @@ section.faq {
     .modal-text h6{
         padding: 1%;
         font-weight: 600;
-        font-size: 3vw;
+        font-size: 2.3vw;
+    }
+    .modal-text button{
+        height: 5vh;
+        font-size: 2.3vw;
+    }
+    .modal-body{
+        line-height: 20px;
     }
     .content__prices h5{
         font-size: 3.3vw;
@@ -320,6 +347,18 @@ section.faq {
     }
 }
 @media screen and (min-width: 501px) and (max-width: 767px){
+    .modal-text h6{
+        padding: 1%;
+        font-weight: 600;
+        font-size: 2.3vw;
+    }
+    .modal-text button{
+        height: 5vh;
+        font-size: 2.3vw;
+    }
+    .modal-body{
+        line-height: 20px;
+    }
     .content__prices h5{
         font-size: 3vw;
     }
@@ -338,15 +377,11 @@ section.faq {
     .nav-list li a{
         font-size: 2.6vw;
     }
-    .nav-list li a:hover {
-        font-size: 2.8vw;
-    }
+
     .social-inner i{
         font-size: 25px;
     }
-    .social-inner i:hover{
-        font-size: 30px;
-    }
+
 }
 @media screen and (max-width: 575px){
     .section__footer .container{
@@ -370,9 +405,6 @@ section.faq {
         margin-top: 5%;}
     .social-inner{
         font-size: 2.8vw
-    }
-    .social-inner:hover{
-        font-size: 3.2vw
     }
     .modal-header h3{
         font-size: 4.5vw;
@@ -400,28 +432,27 @@ section.faq {
     .nav-list li a {
         font-size: 2vw;
     }
-    .nav-list li a:hover {
-        font-size: 2.3vw;
-    }
+
 
 }
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1024px) {
     .col-12 p {
         font-size: 1.4vw;
     }
+
     .contact-list dt {
         font-size: 1.7vw;
     }
+
     .contact-list dd {
         font-size: 1.4vw;
     }
-    .content__footer3 h5, .content__footer2 h5{
+
+    .content__footer3 h5, .content__footer2 h5 {
         font-size: 2vw;
     }
+
     .nav-list li a {
         font-size: 1.4vw;
-    }
-    .nav-list li a:hover {
-        font-size: 1.6vw;
     }
 }

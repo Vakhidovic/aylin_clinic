@@ -1,0 +1,427 @@
+.wrapper {
+    width: 100%;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.content__prices h5{
+    font-weight: bold;
+    text-align: left;
+    font-size: 1.4vw;
+    color: #d09d21;
+}
+.modal-header button{
+    font-size: 4vw;
+}
+.modal-content{
+    text-align: start;
+}
+.modal-header h3{
+    font-size: 2vw;
+}
+.modal-body p{
+    font-family: 'Montserrat', sans-serif;
+    padding: 1%;
+    font-size: 1.3vw;
+}
+.modal-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+
+}
+.modal-text button{
+    height: 4vh;
+    font-size: 1vw;
+}
+.modal-text h6{
+    padding: 1%;
+    font-weight: 600;
+    font-size: 1.1vw;
+}
+.content__aboutUS h4{
+    margin-top: 5%;
+    margin-bottom: -8%;
+    font-size: 2vw;
+    color: #d09d21;
+    font-family: 'Montserrat', sans-serif;
+}
+:root {--surface-color: #fff;--curve: 40;}
+* {box-sizing: border-box;}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: #fef8f8;
+}
+
+.context-dark, .bg-gray-dark, .bg-primary {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
+    color: #ffffff;
+}
+.section__footer {
+    padding-top: 3%;
+}
+.nav-list li{
+    margin: 2% 0;
+}
+.nav-list li a {
+    font-size: 1vw;
+    margin: 1% 0;
+}
+
+.nav-list li a:hover {
+    color: silver;
+    font-size: 1vw;
+}
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.col-md-5 p {
+    font-size: 1vw;
+}
+.contact-list dt{
+    margin-top: 2%;
+    font-size: 1.3vw;
+}
+.contact-list dd {
+    font-size: 1vw;
+    color: white;
+}
+.content__footer2 h5, .content__footer3 h5{
+    font-size: 1.6vw;
+    font-weight: bold;
+    color: silver;
+    margin-top: 6%;
+}
+.social-inner i{
+    font-size: 35px;
+}
+.social-inner:hover {
+    font-size: 40px;
+}
+.content__footer4{
+    padding-top: 5%;
+}
+
+
+
+
+
+
+/* price list */
+.faq {
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+}
+
+section.faq {
+    padding-top: 2em;
+    padding-bottom: 3em;
+}
+
+.faq ul {
+    text-align: left;
+}
+.transition, p, ul li span:before, ul li span:after {
+    transition: all 0.3s;
+}
+
+.faq .no-select, #faq h2 {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    user-select: none;
+}
+
+.faq h1 {
+    color: #000;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+
+.faq h3 {
+    color: #cc071e;
+    font-family: 'hm_light', sans-serif;
+    font-size: 20px;
+    line-height: 34px;
+    text-align: left;
+    padding: 15px 25px 15px 0;
+    text-transform: none;
+    font-weight: 300;
+    letter-spacing: 1px;
+    display: block;
+    margin: 0;
+    cursor: pointer;
+    transition: .2s;
+}
+.faq h4 {
+    color: #cc071e;
+    font-family: 'hm_light', sans-serif;
+    font-size: 20px;
+    line-height: 34px;
+    text-align: left;
+    text-transform: none;
+    font-weight: 300;
+    letter-spacing: 1px;
+    display: block;
+    margin: 0;
+    cursor: pointer;
+    transition: .2s;
+}
+.faq h5 {
+    color: #d09d21;
+    text-align: left;
+    text-transform: none;
+    font-size: 1.6vw;
+    font-weight: 600;
+    letter-spacing: 1px;
+    display: block;
+    margin: 0;
+    cursor: pointer;
+    transition: .2s;
+}
+.price p {
+    position: relative;
+    overflow: hidden;
+    max-height: 250px;
+    will-change: max-height;
+    contain: layout;
+    opacity: 1;
+    transform: translate(0, 0);
+    margin-top: 0;
+    margin-bottom: 0;
+    transition: .3s opacity, .6s max-height;
+    hyphens: auto;
+    z-index: 2;
+
+}
+
+.faq ul {
+    list-style: none;
+    perspective: 900;
+    padding: 0;
+    margin: 0;
+}
+.faq ul li {
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    -webkit-tap-highlight-color: transparent;
+}
+.faq ul li + li {
+    margin-top: 15px;
+}
+.faq ul li:last-of-type {
+    padding-bottom: 0;
+}
+.faq ul li span {
+    position: absolute;
+    transform: translate(-6px, 0);
+    margin-top: 28px;
+    right: 15px;
+
+}
+.faq ul li span:before, ul li span:after {
+    content: "";
+    position: absolute;
+    background-color: #d09d21;
+    width: 6px;
+    height: 12px;
+}
+.faq ul li span:before {
+    transform: translate(-2px, 0) rotate(45deg);
+}
+.faq ul li span:after {
+    transform: translate(2px, 0) rotate(-45deg);
+}
+.faq ul li input[type=checkbox] {
+    position: absolute;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    touch-action: manipulation;
+}
+.faq ul li input[type=checkbox]:checked ~ h2 {
+    color: #000;
+}
+.faq ul li input[type=checkbox]:checked ~ h4 {
+    max-height: 0;
+    transition: .3s;
+    opacity: 0;
+}
+.faq ul li input[type=checkbox]:checked ~ h5 {
+    max-height: 0;
+    transition: .3s;
+    opacity: 0;
+}
+.faq ul li input[type=checkbox]:checked ~ .price p {
+    max-height: 0;
+    transition: .3s;
+    opacity: 0;
+}
+.faq ul li input[type=checkbox]:checked ~ span:before {
+    transform: translate(2px, 0) rotate(45deg);
+}
+.faq ul li input[type=checkbox]:checked ~ span:after {
+    transform: translate(-2px, 0) rotate(-45deg);
+}
+
+
+
+
+
+
+@media screen and (max-width: 380px){
+  .h1__style{
+      width: 80%;
+      margin: auto;
+  }
+}
+
+@media screen and (max-width: 500px){
+    .modal-text h6{
+        padding: 1%;
+        font-weight: 600;
+        font-size: 3vw;
+    }
+    .content__prices h5{
+        font-size: 3.3vw;
+    }
+    .col-12 p {
+        font-size: 2.5vw;
+    }
+    .contact-list  dd {
+        font-size: 3.5vw;
+    }
+    .contact-list  dt {
+        font-size: 3.7vw;
+    }
+    .content__footer2 h5, .content__footer3 h5{
+        font-size: 4vw;
+    }
+    .nav-list li a{
+        font-size: 3.5vw;
+    }
+    .nav-list li a:hover {
+       color: silver;
+    }
+    .br-1{
+        display: block
+    }
+    .social-inner i{
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 767px){
+    .content__prices h5{
+        font-size: 3vw;
+    }
+    .col-12 p {
+        font-size: 2vw;
+    }
+    .contact-list dt{
+        font-size: 2.8vw;
+    }
+    .contact-list dd {
+        font-size: 2.6vw;
+    }
+    .content__footer2 h5, .content__footer3 h5{
+        font-size: 3.3vw;
+    }
+    .nav-list li a{
+        font-size: 2.6vw;
+    }
+    .nav-list li a:hover {
+        font-size: 2.8vw;
+    }
+    .social-inner i{
+        font-size: 25px;
+    }
+    .social-inner i:hover{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 575px){
+    .section__footer .container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .content__footer2{
+        flex: 1 1 250px;
+        margin-top: 5%;
+    }
+    .content__footer4{
+        width: 100%;
+        display: flex;
+        margin: 3% 0;
+        justify-content: center;
+    }
+    .content__footer3{
+        text-align: left;
+        flex: 1 1 350px;
+        margin-top: 5%;}
+    .social-inner{
+        font-size: 2.8vw
+    }
+    .social-inner:hover{
+        font-size: 3.2vw
+    }
+    .modal-header h3{
+        font-size: 4.5vw;
+    }
+    .modal-header button{
+        font-size: 7vw;
+    }
+}
+@media screen and (min-width: 767px) and (max-width: 1023px){
+    .col-12 p {
+        font-size: 1.8vw;
+    }
+    .contact-list dt{
+        font-size: 2vw;
+    }
+    .contact-list dd {
+        font-size: 1.8vw;
+    }
+    .content__footer3 h5, .content__footer2 h5{
+        font-size: 3.3vw;
+    }
+    .nav-list li{
+        margin: 5% 0;
+    }
+    .nav-list li a {
+        font-size: 2vw;
+    }
+    .nav-list li a:hover {
+        font-size: 2.3vw;
+    }
+
+}
+@media screen and (min-width: 1024px){
+    .col-12 p {
+        font-size: 1.4vw;
+    }
+    .contact-list dt {
+        font-size: 1.7vw;
+    }
+    .contact-list dd {
+        font-size: 1.4vw;
+    }
+    .content__footer3 h5, .content__footer2 h5{
+        font-size: 2vw;
+    }
+    .nav-list li a {
+        font-size: 1.4vw;
+    }
+    .nav-list li a:hover {
+        font-size: 1.6vw;
+    }
+}

@@ -158,6 +158,8 @@ body .wrapper .section__aboutUS {
 }
  body .wrapper .section__laserMon .card__laser{
 	 padding: 2% 0;
+	background-color: #fff;
+	 overflow: hidden;
  }
  body .wrapper .section__laserMon .card__laser .row-2 {
 	 width: 80%;
@@ -166,7 +168,7 @@ body .wrapper .section__aboutUS {
 	 margin-top: 3%;
 	 font-size: 2.5vw;
 	 text-align: center;
-	 color: #c89620;
+	 color: #c59116;
 }
  body .wrapper .footer-dark {
 	 margin-top: 10vw;
@@ -184,7 +186,7 @@ body .wrapper .section__aboutUS {
 	  }
 	 body .wrapper .section__aboutUS {
 		 margin-top: 0;
-		 padding-top: 3%;
+		 padding-top: 10%;
 	}
 	 body .wrapper .section__aboutUS h2 {
 		 font-size: 7vw;
@@ -194,8 +196,7 @@ body .wrapper .section__aboutUS {
 		 padding: 0;
 	}
 	 body .wrapper .section__aboutUS .container__aboutUS .img__aboutUS img {
-		 border-top-left-radius: 0;
-		 border-top-right-radius: 0;
+		 border-radius: 0;
 		 width: 100%;
 	}
 	 body .wrapper .section__aboutUS .container__aboutUS .content__aboutUS h4 {
@@ -221,16 +222,14 @@ body .wrapper .section__aboutUS {
 		 text-align: justify;
 	}
 	 body .wrapper .section__carusel {
-		 padding-top: 3%;
+		 padding-top: 15%;
 	}
 	 body .wrapper .section__carusel h2 {
 		 font-size: 7vw;
 	}
-	 body .wrapper .section__priceList {
-		 padding-top: 0;
-	}
+
 	 body .wrapper .section__priceList h2 {
-		 font-size: 5vw;
+		 font-size: 7vw;
 		 margin: 3% 0;
 	}
 	 body .wrapper .section__priceList .container .cards__price {
@@ -285,10 +284,11 @@ body .wrapper .section__aboutUS {
 		 font-size: 3.2vw;
 	}
 	 body .wrapper .section__laserMon .card__laser .row-2 h3 {
-		 font-size: 3.8vw;
+		 font-size: 4.3vw;
 	}
 	 body .wrapper .section__laserMon .card__laser .row-2 p {
-		 font-size: 3vw;
+		 font-size: 4vw;
+		 line-height: 120%;
 	}
 	 body .wrapper .section__laserMon .card__laser .row-2 .mini-content-3 div {
 		 width: 27vw;

@@ -270,7 +270,7 @@ html {
     width: 60%;
     height: 3.5vw;
     margin-top: 5%;
-    border-radius: 50px;
+    border-radius: 30px;
     outline: 0;
 }
 
@@ -330,16 +330,53 @@ html {
     font-style: normal;
     font-weight: bold;
     font-size: 1.7vw;
-    color: #d09d21
+    color: #c59116;
 }
-
+.buttons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.btn-4{
+display: flex;
+justify-content: center;
+ height: 5vh;
+ font-size: 1.6vw;  
+ color: #c59116;
+cursor: pointer;
+margin: -6% 0;
+}
+.btn-4:hover{
+color: #87691b;
+}
+.btn-5{
+    display: flex;
+    justify-content: center;
+    height: 5vh;
+    font-size: 1.6vw;
+    color: #c59116;
+    cursor: pointer;
+}
+.btn-5:hover{
+    color: #87691b;
+}
+.paragraf{
+    transition: all 0.3s linear;
+    background: -webkit-linear-gradient(#c59116, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.paragraf2{
+    color: #c59116;
+    background: -webkit-linear-gradient(#c59116, #c59116);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .row-2 > p {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 1.5vw;
-    color: #d09e21bd;
-
 }
 
 .btn-2 {
@@ -395,7 +432,7 @@ html {
 
 .section__staff {
     display: grid;
-    height: 40vw;
+    height: 45vw;
 }
 
 .layer {
@@ -498,6 +535,7 @@ html {
     font-size: 1.3vw;
     font-family: 'Montserrat', sans-serif;
     text-align: justify;
+    line-height: 20px;
 }
 
 .hero-right {
@@ -604,6 +642,15 @@ html {
         width: 0;
     }
 }
+@media screen and (max-width: 429px){
+    .btn-4{
+        margin-top: -25%;
+        font-size: 5vw;
+    }
+    .btn-5{
+        font-size: 5vw;
+    }
+}
 
 @media screen and (max-width: 450px) {
     .paragraf__header{
@@ -658,7 +705,8 @@ html {
     }
 
     .hero-left .layers .layer__info p {
-        font-size:3vw;
+        font-size:3.5vw;
+        line-height: 20px;
     }
 
     .hero-right {
@@ -1048,6 +1096,15 @@ html {
         font-size: 4vw;
     }
 }
+@media screen and (min-width: 430px) and (max-width: 620px){
+    .btn-4{
+        margin-top: -25%;
+        font-size: 3.5vw;
+    }
+    .btn-5{
+        font-size: 5vw;
+    }
+}
 
 @media screen and (min-width: 502px) and (max-width: 767px) {
     .paragraf__header{
@@ -1064,7 +1121,7 @@ html {
 
 
     .btn-2 {
-        margin-bottom: 8%;
+        margin-bottom: 3%;
         font-size: 1.7vw;
         height: 5vw;
         width: 40%;
@@ -1072,7 +1129,7 @@ html {
 
     .section__staff {
         position: relative;
-        height: 90vw;
+        height: 110vw;
     }
 
     .hero-left {
@@ -1093,7 +1150,8 @@ html {
     }
 
     .hero-left .layers .layer__info p {
-        font-size: 3vw;
+        font-size: 4vw;
+        line-height: 120%;
     }
 
     .hero-right {
@@ -1240,6 +1298,16 @@ html {
         margin: 5% auto 6% auto;
         font-size: 5vw;
         height: 12vw;
+    }
+}
+
+@media  screen and (min-width: 620px) and (max-width: 991px) {
+    .btn-4{
+        margin-top: -10%;
+        font-size: 2.5vw;
+    }
+    .btn-5{
+        font-size: 2.5vw;
     }
 }
 

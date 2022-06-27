@@ -1,0 +1,15 @@
+@media screen  and (max-width: 380px){
+    .h1__style h1{
+        font-size: 7vw;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+   .title p {
+       font-size: 2vw;
+   }
+    .list__facts li {
+        font-size: 20px;
+    }
+}

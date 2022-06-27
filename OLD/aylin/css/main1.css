@@ -1,0 +1,445 @@
+body .wrapper .section__aboutUS {
+	 margin-top: 5vw;
+	 box-sizing: border-box;
+}
+ body .wrapper .section__aboutUS h2 {
+	 font-family: 'Montserrat', sans-serif;
+	 font-style: normal;
+	 font-weight: 400;
+	 font-size: 2.5vw;
+	 line-height: 37px;
+	 color: #d09d21;
+	 text-align: center;
+	 margin-bottom: 4%;
+}
+ body .wrapper .section__aboutUS .container__aboutUS {
+	 display: flex;
+}
+ body .wrapper .section__aboutUS .container__aboutUS .img__aboutUS img {
+	 width: 35vw;
+	 border-radius: 30px;
+	 -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
+	 -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
+	 box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
+}
+ body .wrapper .section__aboutUS .container__aboutUS .content__aboutUS {
+	 padding: 0 5%;
+}
+ body .wrapper .section__aboutUS .container__aboutUS .content__aboutUS .list__facts {
+	 display: flex;
+	 margin-top: 10%;
+}
+ body .wrapper .section__aboutUS .container__aboutUS .content__aboutUS .list__facts li {
+	 margin-bottom: 5%;
+	 font-family: 'Montserrat', sans-serif;
+	 font-style: normal;
+	 font-weight: 400;
+	 font-size: 1.4vw;
+	 line-height: 140%;
+}
+ body .wrapper .section__aboutUS .container__aboutUS .content__aboutUS .list__facts li:before {
+	 content: '';
+	 width: 1vw;
+	 height: 1vw;
+	 background-color: #d09d21;
+	 border-radius: 50%;
+	 display: inline-block;
+	 align-items: center;
+	 margin: 0 10px 0 0;
+}
+ body .wrapper .section__aboutUS .container__aboutUS .content__aboutUS .content__facts2 {
+	 margin-left: 15%;
+}
+ body .wrapper .section__aboutUS .container__aboutUS .content__aboutUS .paragraph__aboutUS p {
+	 font-family: 'Montserrrat', sans-serif;
+	 font-style: normal;
+	 font-weight: 400;
+	 font-size: 1.3vw;
+	 line-height: 140%;
+}
+ body .wrapper .section__carusel {
+	 margin-top: 5vw;
+	 height: 100%;
+}
+ body .wrapper .section__carusel h2 {
+	 margin-bottom: 2%;
+	 color: #cf9d21;
+	 text-align: center;
+	 font-size: 2.5vw;
+}
+ body .wrapper .section__priceList {
+	 padding-top: 5%;
+	 margin-top: 5vw;
+}
+ body .wrapper .section__priceList h2 {
+	 font-size: 2.5vw;
+	 color: #cf9d21;
+	 text-align: center;
+}
+ body .wrapper .section__priceList .container .cards__price {
+	 display: flex;
+}
+ body .wrapper .section__priceList .container .cards__price .card__prices {
+	 width: 48%;
+	 margin: 1% auto;
+	 text-align: center;
+	 background-color: rgba(255, 255, 255, 0.4);
+	 border-radius: 30px;
+	 -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.09);
+	 -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.09);
+	 box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.09);
+	 padding: 4%;
+}
+ body .wrapper .section__priceList .container .cards__price .card__prices .logo__priceList img {
+	 width: 10vw;
+}
+ body .wrapper .section__priceList .container .cards__price .card__prices .content__prices .faqs {
+	 display: none;
+}
+ body .wrapper .section__priceList .container .cards__price .card__prices .content__prices h3 {
+	 font-size: 1.8vw;
+	 text-align: start;
+	 font-weight: 600;
+	 color: #d09d21;
+}
+ body .wrapper .section__priceList .container .cards__price .card__prices .content__prices h4 {
+	 color: rgba(208, 157, 33, 0.8);
+	 font-size: 1.7vw;
+	 font-weight: 600;
+}
+ body .wrapper .section__priceList .container .cards__price .card__prices .content__prices .price {
+	 display: flex;
+	 justify-content: space-between;
+}
+ body .wrapper .section__priceList .container .cards__price .card__prices .content__prices .price p {
+	 color: rgba(208, 157, 33, 0.8);
+	 font-size: 1.3vw;
+	 line-height: 30px;
+}
+ body .wrapper .section__priceList .container .cards__price .card__prices-2 {
+	 width: 48%;
+	 margin: 1% auto;
+	 text-align: center;
+	 background-color: rgba(255, 255, 255, 0.4);
+	 border-radius: 30px;
+	 -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.09);
+	 -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.09);
+	 box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.09);
+	 padding: 4%;
+}
+ body .wrapper .section__priceList .container .cards__price .card__prices-2 .logo__priceList img {
+	 width: 10vw;
+}
+ body .wrapper .section__priceList .container .cards__price .card__prices-2 .content__prices .faqs {
+	 display: none;
+}
+ body .wrapper .section__priceList .container .cards__price .card__prices-2 .content__prices h3 {
+	 font-size: 1.8vw;
+	 text-align: start;
+	 font-weight: 600;
+	 color: #d09d21;
+}
+ body .wrapper .section__priceList .container .cards__price .card__prices-2 .content__prices h4 {
+	 color: rgba(208, 157, 33, 0.8);
+	 font-size: 1.7vw;
+	 font-weight: 600;
+}
+ body .wrapper .section__priceList .container .cards__price .card__prices-2 .content__prices .price {
+	 display: flex;
+	 justify-content: space-between;
+}
+ body .wrapper .section__priceList .container .cards__price .card__prices-2 .content__prices .price p {
+	 color: rgba(208, 157, 33, 0.8);
+	 font-size: 1.3vw;
+	 line-height: 30px;
+}
+ body .wrapper .section__laserMon {
+	 margin-top: 10vw;
+}
+ body .wrapper .section__laserMon .card__laser .row-2 {
+	 width: 80%;
+}
+ body .wrapper .section__laserMon h2 {
+	 margin-top: 3%;
+	 font-size: 2.5vw;
+	 text-align: center;
+	 color: #c89620;
+}
+ body .wrapper .footer-dark {
+	 margin-top: 10vw;
+}
+ body .wrapper .footer-dark .content__footer1 {
+	 text-align: center;
+	 margin-top: 5%;
+}
+ body .wrapper .footer-dark .content__footer1 .content__footer4 ul {
+	 justify-content: center;
+}
+ @media screen and (max-width: 620px) {
+	  body .wrapper .section__aboutUS .container__aboutUS .content__aboutUS .list__facts {
+	  	justify-content: center;
+	  }
+	 body .wrapper .section__aboutUS {
+		 margin-top: 0;
+		 padding-top: 3%;
+	}
+	 body .wrapper .section__aboutUS h2 {
+		 font-size: 7vw;
+	}
+	 body .wrapper .section__aboutUS .container__aboutUS {
+		 display: block;
+		 padding: 0;
+	}
+	 body .wrapper .section__aboutUS .container__aboutUS .img__aboutUS img {
+		 border-top-left-radius: 0;
+		 border-top-right-radius: 0;
+		 width: 100%;
+	}
+	 body .wrapper .section__aboutUS .container__aboutUS .content__aboutUS h4 {
+		 font-size: 6vw;
+		text-align: center;
+		color: #d09d21;
+	}
+	 body .wrapper .section__aboutUS .container__aboutUS .content__aboutUS .title p {
+		 margin-top: 5%;
+		 font-size: 3.6vw;
+	}
+	 body .wrapper .section__aboutUS .container__aboutUS .content__aboutUS .list__facts li {
+		 font-size: 4vw;
+	}
+	 body .wrapper .section__aboutUS .container__aboutUS .content__aboutUS .list__facts li::before {
+		 content: '';
+		 width: 2vw;
+		 height: 2vw;
+	}
+	 body .wrapper .section__aboutUS .container__aboutUS .content__aboutUS .paragraph__aboutUS p {
+		 font-size: 4vw;
+		 margin-top: -9%;
+		 text-align: justify;
+	}
+	 body .wrapper .section__carusel {
+		 padding-top: 3%;
+	}
+	 body .wrapper .section__carusel h2 {
+		 font-size: 7vw;
+	}
+	 body .wrapper .section__priceList {
+		 padding-top: 0;
+	}
+	 body .wrapper .section__priceList h2 {
+		 font-size: 5vw;
+		 margin: 3% 0;
+	}
+	 body .wrapper .section__priceList .container .cards__price {
+		 display: block;
+	}
+	 body .wrapper .section__priceList .container .cards__price .card__prices {
+		 width: 90%;
+		 margin: 5% auto;
+		 padding: 9% 5%;
+	}
+	 body .wrapper .section__priceList .container .cards__price .card__prices .logo__priceList img {
+		 width: 20vw;
+	}
+	 body .wrapper .section__priceList .container .cards__price .card__prices .content__prices h4 {
+		 font-size: 3vw;
+	}
+	 body .wrapper .section__priceList .container .cards__price .card__prices .content__prices h3 {
+		 font-size: 4.5vw;
+	}
+	 body .wrapper .section__priceList .container .cards__price .card__prices .content__prices .faqs {
+		 display: block;
+	}
+	 body .wrapper .section__priceList .container .cards__price .card__prices .content__prices .price p {
+		 font-size: 3.5vw;
+	}
+	 body .wrapper .section__priceList .container .cards__price .card__prices .content__prices .price .withoutL {
+		 line-height: 20px;
+	}
+	 body .wrapper .section__priceList .container .cards__price .card__prices-2 {
+		 display: none;
+	}
+	 body .wrapper .section__laserMon {
+		 margin-top: 0;
+		 padding: 15% 0;
+	}
+	 body .wrapper .section__laserMon h2 {
+		 font-size: 6vw;
+	}
+	 body .wrapper .section__laserMon .card__laser {
+		 width: 90%;
+		 align-items: center;
+	}
+	 body .wrapper .section__laserMon .card__laser .img-3 img {
+		 width: 45vw;
+		 display: none;
+	}
+	 body .wrapper .section__laserMon .card__laser .row-2 {
+		 width: 100%;
+	}
+	 body .wrapper .section__laserMon .card__laser .row-2 h4 {
+		 font-size: 3.2vw;
+	}
+	 body .wrapper .section__laserMon .card__laser .row-2 h3 {
+		 font-size: 3.8vw;
+	}
+	 body .wrapper .section__laserMon .card__laser .row-2 p {
+		 font-size: 3vw;
+	}
+	 body .wrapper .section__laserMon .card__laser .row-2 .mini-content-3 div {
+		 width: 27vw;
+		 height: 6vw;
+		 font-size: 2.3vw;
+	}
+	 body .wrapper .footer-dark {
+		 margin-top: 0;
+	}
+	 body .wrapper .footer-dark #contacts {
+		 display: block;
+	}
+}
+ @media screen and (min-width: 621px) and (max-width: 767px) {
+	 body .wrapper .section__aboutUS h2 {
+		 font-size: 5vw;
+	}
+	 body .wrapper .section__aboutUS .container__aboutUS .img__aboutUS img {
+		 width: 50vw;
+	}
+	 body .wrapper .section__aboutUS .container__aboutUS .content__aboutUS h4 {
+		 font-size: 2.4vw;
+	}
+	 body .wrapper .section__aboutUS .container__aboutUS .content__aboutUS .list__facts li {
+		 font-size: 2.2vw;
+	}
+	 body .wrapper .section__aboutUS .container__aboutUS .content__aboutUS .paragraph__aboutUS p {
+		 margin-top: -7%;
+		 font-size: 1.6vw;
+	}
+	 body .wrapper .section__carusel h2 {
+		 font-size: 5vw;
+	}
+	 body .wrapper .section__priceList {
+		 padding-top: 0;
+	}
+	 body .wrapper .section__priceList h2 {
+		 font-size: 4vw;
+	}
+	 body .wrapper .section__priceList .container .cards__price {
+		 display: block;
+	}
+	 body .wrapper .section__priceList .container .cards__price .card__prices {
+		 width: 90%;
+	}
+	 body .wrapper .section__priceList .container .cards__price .card__prices .content__prices .faqs {
+		 display: block;
+	}
+	 body .wrapper .section__priceList .container .cards__price .card__prices .content__prices h3 {
+		 text-align: start;
+		 font-size: 3.2vw;
+	}
+	 body .wrapper .section__priceList .container .cards__price .card__prices .content__prices .price p {
+		 font-size: 1.5vw;
+	}
+	 body .wrapper .section__priceList .container .cards__price .card__prices-2 {
+		 display: none;
+	}
+	 body .wrapper .section__laserMon h2 {
+		 font-size: 5vw;
+	}
+	 body .wrapper .section__laserMon .card__laser {
+		 width: 80%;
+		 align-items: center;
+	}
+	 body .wrapper .section__laserMon .card__laser .img-3 img {
+		 width: 30vw;
+	}
+	 body .wrapper .section__laserMon .card__laser .row-2 {
+		 width: 100%;
+	}
+	 body .wrapper .section__laserMon .card__laser .row-2 h4 {
+		 font-size: 3vw;
+	}
+	 body .wrapper .section__laserMon .card__laser .row-2 h3 {
+		 font-size: 3.6vw;
+	}
+	 body .wrapper .section__laserMon .card__laser .row-2 p {
+		 font-size: 2.1vw;
+	}
+	 body .wrapper .section__laserMon .card__laser .row-2 .mini-content-3 div {
+		 width: 26vw;
+		 height: 6vw;
+		 font-size: 2.2vw;
+	}
+}
+ @media screen and (min-width: 768px) and (max-width: 1023px) {
+	 body .wrapper .section__aboutUS h2 {
+		 font-size: 4vw;
+	}
+	 body .wrapper .section__aboutUS .container__aboutUS .img__aboutUS img {
+		 width: 50vw;
+	}
+	 body .wrapper .section__aboutUS .container__aboutUS .content__aboutUS .title p {
+		 font-size: 1.8vw;
+	}
+	 body .wrapper .section__aboutUS .container__aboutUS .content__aboutUS h4 {
+		 font-size: 2vw;
+	}
+	 body .wrapper .section__aboutUS .container__aboutUS .content__aboutUS .list__facts li {
+		 font-size: 2vw;
+	}
+	 body .wrapper .section__aboutUS .container__aboutUS .content__aboutUS .paragraph__aboutUS p {
+		 margin-top: -7%;
+		 font-size: 1.6vw;
+	}
+	 body .wrapper .section__priceList h2 {
+		 font-size: 4.5vw;
+	}
+	 body .wrapper .section__priceList .container .cards__price .card__prices .content__prices h3 {
+		 font-size: 2vw;
+	}
+	 body .wrapper .section__priceList .container .cards__price .card__prices .content__prices .price p {
+		 font-size: 1.6vw;
+	}
+	 body .wrapper .section__priceList .container .cards__price .card__prices-2 .content__prices h3 {
+		 font-size: 2vw;
+	}
+	 body .wrapper .section__priceList .container .cards__price .card__prices-2 .content__prices .price p {
+		 font-size: 1.6vw;
+	}
+	 body .wrapper .section__laserMon {
+		 margin-top: 5%;
+	}
+	 body .wrapper .section__laserMon h2 {
+		 font-size: 4vw;
+	}
+	 body .wrapper .section__laserMon .card__laser {
+		 margin-top: 0;
+		 width: 80%;
+		 align-items: center;
+	}
+	 body .wrapper .section__laserMon .card__laser .img-3 {
+		 display: flex;
+		 align-items: center;
+	}
+	 body .wrapper .section__laserMon .card__laser .img-3 img {
+		 width: 30vw;
+	}
+	 body .wrapper .section__laserMon .card__laser .row-2 h4 {
+		 font-size: 2.8vw;
+	}
+	 body .wrapper .section__laserMon .card__laser .row-2 h3 {
+		 font-size: 3.4vw;
+	}
+	 body .wrapper .section__laserMon .card__laser .row-2 p {
+		 font-size: 2vw;
+	}
+	 body .wrapper .section__laserMon .card__laser .row-2 .mini-content-3 div {
+		 width: 23vw;
+		 height: 6vw;
+		 font-size: 2vw;
+	}
+	 body .wrapper .footer-dark {
+		 margin-top: 5%;
+	}
+}
+ 
